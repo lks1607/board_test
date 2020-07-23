@@ -1,0 +1,588 @@
+.GridMain1 .GridMain2 .GMImage{padding-bottom:256px}
+.GridMain1 .GridMain2 .GMNone{display:none}
+.GridMain1 .GridMain2 .GMChildPart,.GridMain1 .GridMain2 .GMSection,.GridMain1 .GridMain2 .GMSectionFF3{table-layout:fixed;width:0}
+.GridMain1 .GridMain2 .GMSectionFF3{border-collapse:collapse}
+.GridMain1 .GridMain2 .GMMainTable{border:1px solid #c7c7c7;border-collapse:separate;text-align:left;background:#fff;font:12px NanumGothic,Helvetica,AppleGothic,Sans-serif}
+.GridMain1 .GridMain2 .GMFootLeft,.GridMain1 .GridMain2 .GMFootMid,.GridMain1 .GridMain2 .GMFootRight{border-top:1px solid #f66661}
+.GridMain1 .GridMain2 .GMBodyLeft,.GridMain1 .GridMain2 .GMFootLeft,.GridMain1 .GridMain2 .GMHScrollLeft,.GridMain1 .GridMain2 .GMHeadLeft{border-right:1px solid #c7c7c7}
+.GridMain1 .GridMain2 .GMBodyRight,.GridMain1 .GridMain2 .GMFootRight,.GridMain1 .GridMain2 .GMHScrollRight,.GridMain1 .GridMain2 .GMHeadRight{border-left:1px solid #c7c7c7}
+.GridMain1 .GridMain2 .GMVScroll{padding-top:1px;padding-bottom:1px}
+.GridMain1 .GridMain2 .GMHScrollLeft,.GridMain1 .GridMain2 .GMHScrollLeftResizeTouch,.GridMain1 .GridMain2 .GMHScrollMid,.GridMain1 .GridMain2 .GMHScrollRightResizeTouch{padding-left:1px;padding-right:1px;cursor:default}
+.GridMain1 .GridMain2 .GMHScrollLeftResizeTouch{border-right:2px solid #000;padding-right:18px;background:#f4f4f4}
+.GridMain1 .GridMain2 .GMHScrollRightResizeTouch{border-left:2px solid #000;padding-left:18px;background:#f4f4f4}
+.GridMain1 .GridMain2 .GMHScrollMidLeftResizeTouch{border-left:1px solid #000;padding-left:19px;background:#f4f4f4}
+.GridMain1 .GridMain2 .GMHScrollMidRightResizeTouch{border-right:1px solid #000;padding-right:19px;background:#f4f4f4}
+.GridMain1 .GridMain2 .GMHScrollWide{padding-right:1px}
+.GridMain1 .GridMain2 .GMHScrollHidden{overflow:visible!important;background:#f4f4f4;cursor:default}
+.GridMain1 .GridMain2 .GMXScroll{background:#f4f4f4}
+.GridMain1 .GridMain2 .GMPage{border-top:0 solid #e0e0e0}
+.GridMain1 .GridMain2 .GMSpaceRowHeight{height:21px}
+.GridMain1 .GridMain2 .GMRowHeight{height:18px}
+.GridMain1 .GridMain2 .GMRowHeightTouch{height:22px}
+.GridMain1 .GridMain2 .GMSpaceMargin{margin:0}
+.GridMain1 .GridMain2 .GMSpaceMarginTouch{margin:0}
+.GridMain1 .GridMain2 .GMSpaceRow{background:#fff;white-space:nowrap;overflow:hidden;padding-top:2px;padding-bottom:2px;border-bottom:1px solid #e0e0ff}
+.GridMain1 .GridMain2 .GMGroupRow,.GridMain1 .GridMain2 .GMPagerRow,.GridMain1 .GridMain2 .GMSearchRow{background-color:#0171bc;white-space:nowrap;padding-top:1px;padding-bottom:1px;overflow:hidden;border-bottom:1px solid #99bce8}
+.GridMain1 .GridMain2 .GMGroupRow,.GridMain1 .GridMain2 .GMPagerRow{background-position:0 -1801px;padding-top:4px;padding-bottom:4px}
+.GridMain1 .GridMain2 .GMFillRow{background:#fff}
+.GridMain1 .GridMain2 .GMRowAbove,.GridMain1 .GridMain2 .GMRowBelow{border-left:1px solid #9cb6c8;border-right:1px solid #9cb6c8}
+.GridMain1 .GridMain2 .GMRowAbove{margin-top:3px;overflow:hidden}
+.GridMain1 .GridMain2 .GMRowBelow{margin-bottom:3px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCountRowTop{background-color:#fdfdfd;white-space:nowrap;padding-top:1px;padding-bottom:1px;overflow:hidden;border-bottom:1px solid #c7c7c7}
+.GridMain1 .GridMain2 .GMCountRowBottom{background-color:#fdfdfd;white-space:nowrap;padding-top:1px;padding-bottom:1px;overflow:hidden;border-top:1px solid #c7c7c7}
+.GridMain1 .GridMain2 .GMCountFont{font-size:12px;font-family:NanumGothic,Helvetica,AppleGothic,sans-serif;text-shadow:0 0 1px rgba(0,0,0,.2);color:#666}
+.GridMain1 .GridMain2 .GMNoDataRow{padding-top:0;padding-bottom:0;background-color:#fff;color:#000}
+.GridMain1 .GridMain2 .GMCell,.GridMain1 .GridMain2 .GMCellFilter,.GridMain1 .GridMain2 .GMCellPanel,.GridMain1 .GridMain2 .GMHeaderDrag,.GridMain1 .GridMain2 .GMHeaderGroup{border-bottom:1px solid #d6d6d6;border-right:1px solid #d6d6d6;border-left:0;border-top:0;vertical-align:top;overflow:hidden;height:auto;font-size:12px;font-family:NanumGothic,Helvetica,AppleGothic,sans-serif}
+.GridMain1 .GridMain2 .GMCellHeader,.GridMain1 .GridMain2 .GMCellHeaderEmpty{vertical-align:middle;overflow:hidden;height:auto;background-color:#fdfdfd;padding-top:1px;border-right:1px solid #d6d6d6;border-bottom:1px solid #d6d6d6}
+.GridMain1 .GridMain2 .GMHeaderGroup,.GridMain1 .GridMain2 .GMHeaderGroupCustom{vertical-align:middle;height:20px;text-align:center}
+.GridMain1 .GridMain2 .GMCellBorderFF3{border-left:0;border-top:0}
+.GridMain1 .GridMain2 .GMCellSpace{vertical-align:middle}
+.GridMain1 .GridMain2 .GMCellSpaceBool,.GridMain1 .GridMain2 .GMCellSpacePanel{vertical-align:top}
+.GridMain1 .GridMain2 .GMCellSpaceRadio{padding-top:3px!important}
+.GridMain1 .GridMain2 .GMCellSpaceEditButton{vertical-align:top;padding-top:4px!important;border:1px solid #000!important;background-color:#fff!important}
+.GridMain1 .GridMain2 .GMCellSpaceButtonButton{vertical-align:top}
+.GridMain1 .GridMain2 .GMCellSpaceButton{vertical-align:top;padding-top:5px!important;white-space:nowrap}
+.GridMain1 .GridMain2 .GMCellSpaceAbove{border-top:1px solid #9cb6c8}
+.GridMain1 .GridMain2 .GMCellSpaceBelow{border-bottom:1px solid #9cb6c8}
+.GridMain1 .GridMain2 .GMCellHeaderPanel,.GridMain1 .GridMain2 .GMCellPanel{white-space:nowrap}
+.GridMain1 .GridMain2 .GMCellHidden{background:0 0!important;border-top:none!important;border-bottom:none!important}
+.GridMain1 .GridMain2 .GMHeaderButton{padding:0}
+.GridMain1 .GridMain2 .GMHeaderGroup{background:#fdfdfd;color:#505050;font-weight:700;border-radius:5px;margin:0 2px 0 2px;line-height:20px}
+.GridMain1 .GridMain2 .GMHeaderGroupFocus{background-color:#c0c0a0}
+.GridMain1 .GridMain2 .GMHeaderGroupDelete{background-color:#f0f0e0;color:#f0f0e0}
+.GridMain1 .GridMain2 .GMHeaderGroupCustom{color:#fff;padding-left:5px;cursor:default;white-space:nowrap}
+.GridMain1 .GridMain2 .GMHeaderDrag{background:#9fb9e9;cursor:default;overflow:hidden}
+.GridMain1 .GridMain2 .GMHeaderFocus{background:#9fb9e9}
+.GridMain1 .GridMain2 .GMPanel{padding-left:80px}
+.GridMain1 .GridMain2 .GMNoTreeLines1{text-align:right}
+.GridMain1 .GridMain2 .GMNoTreeLines2{text-align:right;vertical-align:middle;padding-top:0}
+.GridMain1 .GridMain2 .GMTree{padding-top:0;white-space:nowrap}
+.GridMain1 .GridMain2 .GMSpannedTree{vertical-align:top}
+.GridMain1 .GridMain2 .GMCellClassInner{padding-top:0;padding-bottom:0}
+.GridMain1 .GridMain2 .GMAbs,.GridMain1 .GridMain2 .GMBtn,.GridMain1 .GridMain2 .GMDate,.GridMain1 .GridMain2 .GMEnum,.GridMain1 .GridMain2 .GMFloat,.GridMain1 .GridMain2 .GMHtml,.GridMain1 .GridMain2 .GMImg,.GridMain1 .GridMain2 .GMInt,.GridMain1 .GridMain2 .GMLines,.GridMain1 .GridMain2 .GMLink,.GridMain1 .GridMain2 .GMList,.GridMain1 .GridMain2 .GMNumber,.GridMain1 .GridMain2 .GMPagerEdit,.GridMain1 .GridMain2 .GMPass,.GridMain1 .GridMain2 .GMPopup,.GridMain1 .GridMain2 .GMPopupEdit,.GridMain1 .GridMain2 .GMRadio,.GridMain1 .GridMain2 .GMRadioText,.GridMain1 .GridMain2 .GMResult,.GridMain1 .GridMain2 .GMSeq,.GridMain1 .GridMain2 .GMStatus,.GridMain1 .GridMain2 .GMText,.GridMain1 .GridMain2 .GMUser{white-space:nowrap;vertical-align:middle;padding:5px 6px}
+.GridMain1 .GridMain2 .GMFloat,.GridMain1 .GridMain2 .GMInt{text-align:right}
+.GridMain1 .GridMain2 .GMHtml,.GridMain1 .GridMain2 .GMLines,.GridMain1 .GridMain2 .GMList,.GridMain1 .GridMain2 .GMRadio{white-space:normal}
+.GridMain1 .GridMain2 .GMHtml,.GridMain1 .GridMain2 .GMImg{padding:0}
+.GridMain1 .GridMain2 .GMRadio,.GridMain1 .GridMain2 .GMRadioText{padding:0;font-weight:400!important}
+.GridMain1 .GridMain2 .GMBool{text-align:center}
+.GridMain1 .GridMain2 .GMIcon{background-repeat:no-repeat}
+.GridMain1 .GridMain2 .GMHiddenSpace{display:none}
+.GridMain1 .GridMain2 .GMHeaderText{color:#666;vertical-align:middle;font-size:12px;text-shadow:0 0 1px rgba(0,0,0,.2);font-weight:600;font-family:NanumGothic,Helvetica,AppleGothic,sans-serif}
+.GridMain1 .GridMain2 .GMAbs{padding:0}
+.GridMain1 .GridMain2 .GMUser{padding:0}
+.GridMain1 .GridMain2 .GMPagerEdit{text-align:right;padding-top:5px;padding:0!important}
+.GridMain1 .GridMain2 .GMPagerTotal{text-align:left;padding-top:0}
+.GridMain1 .GridMain2 .GMEditPager{font-size:12px;font-family:NanumGothic,Helvetica,AppleGothic,sans-serif}
+.GridMain1 .GridMain2 .GMMergedCellH{padding:0 0 5px 0}
+.GridMain1 .GridMain2 .GMMergedCellV{padding:0 0 1px 0}
+.GridMain1 .GridMain2 .GMWrap0{white-space:nowrap}
+.GridMain1 .GridMain2 .GMWrap1{white-space:normal}
+.GridMain1 .GridMain2 .GMEllipsis{white-space:nowrap;text-overflow:ellipsis}
+.GridMain1 .GridMain2 .GMAlignLeft{text-align:left}
+.GridMain1 .GridMain2 .GMAlignCenter{text-align:center}
+.GridMain1 .GridMain2 .GMAlignJustify{text-align:center}
+.GridMain1 .GridMain2 .GMAlignRight{text-align:right}
+.GridMain1 .GridMain2 .GMValignTop{vertical-align:top}
+.GridMain1 .GridMain2 .GMValignMiddle{vertical-align:middle}
+.GridMain1 .GridMain2 .GMValignBottom{vertical-align:bottom}
+.GridMain1 .GridMain2 .GMCellButtonBase{color:#fff;display:inline-block;padding:2px 10px 3px;text-decoration:none;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;box-shadow:0 1px 3px rgba(0,0,0,.5);-moz-box-shadow:0 1px 3px rgba(0,0,0,.5);-webkit-box-shadow:0 1px 3px rgba(0,0,0,.5);border-bottom:1px solid rgba(0,0,0,.25);line-height:1;border:0;font-family:Dotum;font-weight:700;text-shadow:0 -1px 1px rgba(0,0,0,.25);height:20px}
+.GridMain1 .GridMain2 .GMCellButton{cursor:pointer;background-color:#5689b9}
+.GridMain1 .GridMain2 .GMCellButton0{cursor:default;background-color:#c8c8c8}
+.GridMain1 .GridMain2 .GMCellButton:hover{background-color:#3a6ea0}
+.GridMain1 .GridMain2 .GM0,.GridMain1 .GridMain2 .GM00,.GridMain1 .GridMain2 .GM000,.GridMain1 .GridMain2 .GM000T,.GridMain1 .GridMain2 .GM001,.GridMain1 .GridMain2 .GM001T,.GridMain1 .GridMain2 .GM00T,.GridMain1 .GridMain2 .GM01,.GridMain1 .GridMain2 .GM010,.GridMain1 .GridMain2 .GM010T,.GridMain1 .GridMain2 .GM011,.GridMain1 .GridMain2 .GM011T,.GridMain1 .GridMain2 .GM01T,.GridMain1 .GridMain2 .GM0C,.GridMain1 .GridMain2 .GM0CL,.GridMain1 .GridMain2 .GM0E,.GridMain1 .GridMain2 .GM0EL,.GridMain1 .GridMain2 .GM0T,.GridMain1 .GridMain2 .GM0TL,.GridMain1 .GridMain2 .GM1,.GridMain1 .GridMain2 .GM10,.GridMain1 .GridMain2 .GM100,.GridMain1 .GridMain2 .GM100T,.GridMain1 .GridMain2 .GM101,.GridMain1 .GridMain2 .GM101T,.GridMain1 .GridMain2 .GM10T,.GridMain1 .GridMain2 .GM11,.GridMain1 .GridMain2 .GM110,.GridMain1 .GridMain2 .GM110T,.GridMain1 .GridMain2 .GM111,.GridMain1 .GridMain2 .GM111T,.GridMain1 .GridMain2 .GM11T,.GridMain1 .GridMain2 .GM1C,.GridMain1 .GridMain2 .GM1CL,.GridMain1 .GridMain2 .GM1E,.GridMain1 .GridMain2 .GM1EL,.GridMain1 .GridMain2 .GM1T,.GridMain1 .GridMain2 .GM1TL,.GridMain1 .GridMain2 .GMC,.GridMain1 .GridMain2 .GMCL,.GridMain1 .GridMain2 .GMD0,.GridMain1 .GridMain2 .GMD0L,.GridMain1 .GridMain2 .GMD1,.GridMain1 .GridMain2 .GMD1L,.GridMain1 .GridMain2 .GMD2,.GridMain1 .GridMain2 .GMD2L,.GridMain1 .GridMain2 .GMD3,.GridMain1 .GridMain2 .GMD3L,.GridMain1 .GridMain2 .GMD4,.GridMain1 .GridMain2 .GMD4L,.GridMain1 .GridMain2 .GME,.GridMain1 .GridMain2 .GMEL,.GridMain1 .GridMain2 .GMT,.GridMain1 .GridMain2 .GMTL{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/Tree.gif);vertical-align:top;background-size:2000px}
+u.GM000,u.GM001,u.GM010,u.GM011,u.GM100,u.GM101,u.GM110,u.GM111{padding-left:39px}
+u.GM000T,u.GM001T,u.GM010T,u.GM011T,u.GM100T,u.GM101T,u.GM110T,u.GM111T{padding-left:60px}
+u.GM00,u.GM01,u.GM10,u.GM11{padding-left:26px}
+u.GM00T,u.GM01T,u.GM10T,u.GM11T{padding-left:47px}
+u.GM0C,u.GM0CL,u.GM0E,u.GM0EL,u.GM0T,u.GM0TL,u.GM1C,u.GM1CL,u.GM1E,u.GM1EL,u.GM1T,u.GM1TL{padding-left:34px}
+u.GM0,u.GM1{padding-left:13px}
+u.GMC,u.GMCL,u.GMD0,u.GMD0L,u.GMD1,u.GMD1L,u.GMD2,u.GMD2L,u.GMD3,u.GMD3L,u.GMD4,u.GMD4L,u.GME,u.GMEL,u.GMT,u.GMTL{padding-left:21px}
+.GridMain1 .GridMain2 .GM000,.GridMain1 .GridMain2 .GM000T{background-position:-24px 0}
+.GridMain1 .GridMain2 .GM010,.GridMain1 .GridMain2 .GM010T{background-position:-136px 0}
+.GridMain1 .GridMain2 .GM001,.GridMain1 .GridMain2 .GM001T{background-position:-272px 0}
+.GridMain1 .GridMain2 .GM011,.GridMain1 .GridMain2 .GM011T{background-position:-392px 0}
+.GridMain1 .GridMain2 .GM100,.GridMain1 .GridMain2 .GM100T{background-position:-512px 0}
+.GridMain1 .GridMain2 .GM110,.GridMain1 .GridMain2 .GM110T{background-position:-640px 0}
+.GridMain1 .GridMain2 .GM101,.GridMain1 .GridMain2 .GM101T{background-position:-768px 0}
+.GridMain1 .GridMain2 .GM111,.GridMain1 .GridMain2 .GM111T{background-position:-896px 0}
+.GridMain1 .GridMain2 .GM00,.GridMain1 .GridMain2 .GM00T{background-position:-37px 0}
+.GridMain1 .GridMain2 .GM10,.GridMain1 .GridMain2 .GM10T{background-position:-149px 0}
+.GridMain1 .GridMain2 .GM01,.GridMain1 .GridMain2 .GM01T{background-position:-285px 0}
+.GridMain1 .GridMain2 .GM11,.GridMain1 .GridMain2 .GM11T{background-position:-405px 0}
+.GridMain1 .GridMain2 .GM0,.GridMain1 .GridMain2 .GM0T{background-position:-50px 0}
+.GridMain1 .GridMain2 .GM1,.GridMain1 .GridMain2 .GM1T{background-position:-298px 0}
+.GridMain1 .GridMain2 .GMT{background-position:-63px 0}
+.GridMain1 .GridMain2 .GM0TL{background-position:-1032px 0}
+.GridMain1 .GridMain2 .GM1TL{background-position:-1088px 0}
+.GridMain1 .GridMain2 .GM0C{background-position:-1160px 0}
+.GridMain1 .GridMain2 .GM1C{background-position:-1216px 0}
+.GridMain1 .GridMain2 .GM0CL{background-position:-1288px 0}
+.GridMain1 .GridMain2 .GM1CL{background-position:-1344px 0}
+.GridMain1 .GridMain2 .GM0E{background-position:-1416px 0}
+.GridMain1 .GridMain2 .GM1E{background-position:-1472px 0}
+.GridMain1 .GridMain2 .GM0EL{background-position:-1544px 0}
+.GridMain1 .GridMain2 .GM1EL{background-position:-1600px 0}
+.GridMain1 .GridMain2 .GMTL{background-position:-1045px 0}
+.GridMain1 .GridMain2 .GMC{background-position:-1173px 0}
+.GridMain1 .GridMain2 .GMCL{background-position:-1301px 0}
+.GridMain1 .GridMain2 .GME{background-position:-1429px 0}
+.GridMain1 .GridMain2 .GMEL{background-position:-1557px 0}
+.GridMain1 .GridMain2 .GMD0{background-position:-1664px 0}
+.GridMain1 .GridMain2 .GMD1{background-position:-1696px 0}
+.GridMain1 .GridMain2 .GMD2{background-position:-1728px 0}
+.GridMain1 .GridMain2 .GMD3{background-position:-1760px 0}
+.GridMain1 .GridMain2 .GMD0L{background-position:-1792px 0}
+.GridMain1 .GridMain2 .GMD1L{background-position:-1824px 0}
+.GridMain1 .GridMain2 .GMD2L{background-position:-1856px 0}
+.GridMain1 .GridMain2 .GMD3L{background-position:-1888px 0}
+.GridMain1 .GridMain2 .GMD4{background-position:-1920px 0}
+.GridMain1 .GridMain2 .GMD4L{background-position:-1952px 0}
+.GridMain1 .GridMain2 .GMNC,.GridMain1 .GridMain2 .GMNCR,.GridMain1 .GridMain2 .GMND0,.GridMain1 .GridMain2 .GMND1,.GridMain1 .GridMain2 .GMND2,.GridMain1 .GridMain2 .GMND3,.GridMain1 .GridMain2 .GMND4,.GridMain1 .GridMain2 .GMNE,.GridMain1 .GridMain2 .GMNER{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/TreeN.png);background-repeat:no-repeat;vertical-align:top}
+u.GMNC,u.GMNCR,u.GMND0,u.GMND1,u.GMND2,u.GMND3,u.GMND4,u.GMNE,u.GMNER{padding-left:20px}
+.GridMain1 .GridMain2 .GMND0{background-position:-6px 0}
+.GridMain1 .GridMain2 .GMND1{background-position:-56px 0}
+.GridMain1 .GridMain2 .GMND2{background-position:-106px 0}
+.GridMain1 .GridMain2 .GMND3{background-position:-156px 0}
+.GridMain1 .GridMain2 .GMND4{background-position:-206px 0}
+.GridMain1 .GridMain2 .GMNC{background-position:right -50px}
+.GridMain1 .GridMain2 .GMNE{background-position:right -2000px}
+.GridMain1 .GridMain2 .GMNCR{background-position:-255px -50px}
+.GridMain1 .GridMain2 .GMNER{background-position:-255px -2000px}
+u.GMNL{padding-left:21px}
+.GridMain1 .GridMain2 .GMTreeNodeIcon0,.GridMain1 .GridMain2 .GMTreeNodeIcon1,.GridMain1 .GridMain2 .GMTreeNodeIcon2{background-position:2px 4px;background-repeat:no-repeat;background-size:16px}
+.GridMain1 .GridMain2 .GMTreeNodeIcon0{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/treenode0.png)}
+.GridMain1 .GridMain2 .GMTreeNodeIcon1{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/treenode1.png)}
+.GridMain1 .GridMain2 .GMTreeNodeIcon2{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/treenode2.png)}
+.GridMain1 .GridMain2 .GMIconLink{text-decoration:none;width:1000px;display:inline-block}
+.GridMain1 .GridMain2 .GMIconCenter,.GridMain1 .GridMain2 .GMIconLeft,.GridMain1 .GridMain2 .GMIconRight{background-repeat:no-repeat}
+.GridMain1 .GridMain2 .GMIconLeft{background-position:left 0;padding-left:20px!important}
+.GridMain1 .GridMain2 .GMIconRight{background-position:right 0;padding-right:20px!important}
+.GridMain1 .GridMain2 .GMIconCenter{background-position:center 0}
+.GridMain1 .GridMain2 .GMPopupRight{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/popup.png) no-repeat 0 center;background-size:14px}
+.GridMain1 .GridMain2 .GMCollapseHeaderLeft,.GridMain1 .GridMain2 .GMCollapseLeft,.GridMain1 .GridMain2 .GMExpandHeaderLeft,.GridMain1 .GridMain2 .GMExpandLeft{padding-left:20px!important}
+.GridMain1 .GridMain2 .GMDateRight{padding-right:20px!important}
+u.GMDateRight,u.GMPopupRight{padding-right:0!important;padding-left:17px}
+.GridMain1 .GridMain2 .GMDateRight{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/calendar.png) no-repeat 0 center;background-size:14px}
+.GridMain1 .GridMain2 .GMEnumRight{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/combo.png) no-repeat 0 center;background-size:16px}
+u.GMEnumRight{padding-right:0;padding-left:17px}
+.GridMain1 .GridMain2 .GMExpandLeft{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/ic_plus.png) no-repeat 3px center;background-size:12px;padding:2px 0 0 18px;_padding:0 0 0 18px}
+.GridMain1 .GridMain2 .GMCollapseLeft{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/ic_minus.png) no-repeat 3px center;background-size:12px;padding:2px 0 0 18px;_padding:0 0 0 18px}
+.GridMain1 .GridMain2 .GMRadio0Left,.GridMain1 .GridMain2 .GMRadio1Left,.GridMain1 .GridMain2 .GMRadio2Left,.GridMain1 .GridMain2 .GMRadio3Left,.GridMain1 .GridMain2 .GMRadioRO0Left,.GridMain1 .GridMain2 .GMRadioRO1Left,.GridMain1 .GridMain2 .GMRadioRO2Left,.GridMain1 .GridMain2 .GMRadioRO3Left{padding-left:17px;padding-right:10px;line-height:17px;background-repeat:no-repeat;background-position:3px 50%}
+.GridMain1 .GridMain2 .GMRadio0Right,.GridMain1 .GridMain2 .GMRadio1Right,.GridMain1 .GridMain2 .GMRadio2Right,.GridMain1 .GridMain2 .GMRadio3Right,.GridMain1 .GridMain2 .GMRadioRO0Right,.GridMain1 .GridMain2 .GMRadioRO1Right,.GridMain1 .GridMain2 .GMRadioRO2Right,.GridMain1 .GridMain2 .GMRadioRO3Right{line-height:17px;padding-right:17px;padding-left:10px;background-repeat:no-repeat;background-position:3px 50%}
+.GridMain1 .GridMain2 .GMRadio0Left{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk2.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadioRO0Left{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk2R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadio1Left{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk3.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadioRO1Left{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk3R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadio2Left{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk0.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadioRO2Left{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk0R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadio3Left{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk1.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadioRO3Left{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk1R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadio0Right{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk2.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadioRO0Right{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk2R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadio1Right{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk3.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadioRO1Right{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk3R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadio2Right{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk0.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadioRO2Right{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk0R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadio3Right{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk1.png);background-size:14px}
+.GridMain1 .GridMain2 .GMRadioRO3Right{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk1R.png);background-size:14px}
+u.GMFilter0,u.GMFilter1{padding-left:16px}
+.GridMain1 .GridMain2 .GMBool0,.GridMain1 .GridMain2 .GMBool0RO,.GridMain1 .GridMain2 .GMBool1,.GridMain1 .GridMain2 .GMBool1RO,.GridMain1 .GridMain2 .GMBool2,.GridMain1 .GridMain2 .GMBool2RO,.GridMain1 .GridMain2 .GMBool3,.GridMain1 .GridMain2 .GMBool3RO{background-position:center center;background-repeat:no-repeat}
+.GridMain1 .GridMain2 .GMCheck0Left,.GridMain1 .GridMain2 .GMCheck1Left,.GridMain1 .GridMain2 .GMCheckRO0Left,.GridMain1 .GridMain2 .GMCheckRO1Left{background-repeat:no-repeat;padding-left:20px!important;background-position:3px 50%}
+.GridMain1 .GridMain2 .GMCheck0Left{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk0.png);background-size:14px}
+.GridMain1 .GridMain2 .GMCheck1Left{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk1.png);background-size:14px}
+.GridMain1 .GridMain2 .GMCheckRO0Left{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk0R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMCheckRO1Left{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk1R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMBool0{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk0.png);background-size:14px}
+.GridMain1 .GridMain2 .GMBool0RO{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk0R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMBool1{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk1.png);background-size:14px}
+.GridMain1 .GridMain2 .GMBool1RO{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk1R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMBool2{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk2.png);background-size:14px}
+.GridMain1 .GridMain2 .GMBool2RO{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk2R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMBool3{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk3.png);background-size:14px}
+.GridMain1 .GridMain2 .GMBool3RO{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk3R.png);background-size:14px}
+.GridMain1 .GridMain2 .GMFilter0Left,.GridMain1 .GridMain2 .GMFilter10Left,.GridMain1 .GridMain2 .GMFilter11Left,.GridMain1 .GridMain2 .GMFilter12Left,.GridMain1 .GridMain2 .GMFilter1Left,.GridMain1 .GridMain2 .GMFilter2Left,.GridMain1 .GridMain2 .GMFilter3Left,.GridMain1 .GridMain2 .GMFilter4Left,.GridMain1 .GridMain2 .GMFilter5Left,.GridMain1 .GridMain2 .GMFilter6Left,.GridMain1 .GridMain2 .GMFilter7Left,.GridMain1 .GridMain2 .GMFilter8Left,.GridMain1 .GridMain2 .GMFilter9Left{width:100%;height:18px;padding-left:18px}
+.GridMain1 .GridMain2 .GMFilter0Left,.GridMain1 .GridMain2 .GMFilter0Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter0.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter1Left,.GridMain1 .GridMain2 .GMFilter1Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter1.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter2Left,.GridMain1 .GridMain2 .GMFilter2Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter2.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter3Left,.GridMain1 .GridMain2 .GMFilter3Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter3.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter4Left,.GridMain1 .GridMain2 .GMFilter4Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter4.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter5Left,.GridMain1 .GridMain2 .GMFilter5Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter5.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter6Left,.GridMain1 .GridMain2 .GMFilter6Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter6.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter7Left,.GridMain1 .GridMain2 .GMFilter7Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter7.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter8Left,.GridMain1 .GridMain2 .GMFilter8Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter8.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter9Left,.GridMain1 .GridMain2 .GMFilter9Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter9.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter10Left,.GridMain1 .GridMain2 .GMFilter10Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter10.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter11Left,.GridMain1 .GridMain2 .GMFilter11Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter11.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter12Left,.GridMain1 .GridMain2 .GMFilter12Menu{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter12.png) no-repeat left center;background-size:18px}
+.GridMain1 .GridMain2 .GMFilter0Menu,.GridMain1 .GridMain2 .GMFilter10Menu,.GridMain1 .GridMain2 .GMFilter11Menu,.GridMain1 .GridMain2 .GMFilter12Menu,.GridMain1 .GridMain2 .GMFilter1Menu,.GridMain1 .GridMain2 .GMFilter2Menu,.GridMain1 .GridMain2 .GMFilter3Menu,.GridMain1 .GridMain2 .GMFilter4Menu,.GridMain1 .GridMain2 .GMFilter5Menu,.GridMain1 .GridMain2 .GMFilter6Menu,.GridMain1 .GridMain2 .GMFilter7Menu,.GridMain1 .GridMain2 .GMFilter8Menu,.GridMain1 .GridMain2 .GMFilter9Menu{width:18px;height:18px;overflow:hidden;margin:4px 0 0 -1px}
+.GridMain1 .GridMain2 .GMFilterMenuHeader{padding-left:2px;border-bottom:0!important}
+.GridMain1 .GridMain2 .GMKeyfield{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/keyfield.png);background-size:7px;display:inline-block;vertical-align:middle;background-repeat:no-repeat;background-position:center 1px;padding:0 2px 0 4px;line-height:9px}
+@media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0){
+.GridMain1 .GridMain2 .GMKeyfield{background-position:center 3px;padding:0 2px 0 4px;line-height:9px}
+}
+.GridMain1 .GridMain2 .GMCheckHeader0{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk0.png);background-size:14px;display:inline-block;vertical-align:middle;background-repeat:no-repeat;padding:2px 7px 0 6px;margin:0 2px 0 0}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.GridMain1 .GridMain2 .GMCheckHeader0{background-size:14px;padding:2px 6px 0 6px}
+}
+.GridMain1 .GridMain2 .GMCheckHeader0,x:-moz-any-link,x:default{background-size:14px;padding:2px 6px 0 6px}
+@media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0){
+.GridMain1 .GridMain2 .GMCheckHeader0{background-size:14px;padding:1px 17px 0 0}
+}
+.GridMain1 .GridMain2 .GMCheckHeader1{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk1.png);background-size:14px;display:inline-block;vertical-align:middle;background-repeat:no-repeat;padding:2px 6px 0 6px;margin:0 2px 0 0}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.GridMain1 .GridMain2 .GMCheckHeader1{background-size:14px;padding:2px 6px 0 6px}
+}
+.GridMain1 .GridMain2 .GMCheckHeader1,x:-moz-any-link,x:default{background-size:14px;padding:2px 6px 0 6px}
+@media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0){
+.GridMain1 .GridMain2 .GMCheckHeader1{background-size:14px;padding:1px 17px 0 0}
+}
+.GridMain1 .GridMain2 .GMSort{position:absolute;right:2px}
+.GridMain1 .GridMain2 .GMSort1{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/sort1.png) no-repeat right center;background-size:8px;width:10px}
+.GridMain1 .GridMain2 .GMSort2{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/sort2.png) no-repeat right center;background-size:8px;width:10px}
+.GridMain1 .GridMain2 .GMSort3{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/sort3.png) no-repeat right center;background-size:8px;width:10px}
+.GridMain1 .GridMain2 .GMSort4{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/sort4.png) no-repeat right center;background-size:8px;width:10px}
+.GridMain1 .GridMain2 .GMSort5{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/sort5.png) no-repeat right center;background-size:8px;width:10px}
+.GridMain1 .GridMain2 .GMSort6{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/sort6.png) no-repeat right center;background-size:8px;width:10px}
+.GridMain1 .GridMain2 .GMColorDefault{background-color:#fff}
+.GridMain1 .GridMain2 .GMColorNoFocus{background-color:#e8f4ff}
+.GridMain1 .GridMain2 .GMColorReadOnly{background-color:#f2f2f2}
+.GridMain1 .GridMain2 .GMColorPreview{background-color:#fff}
+.GridMain1 .GridMain2 .GMColorAlternate{background-color:#fdfdfd}
+.GridMain1 .GridMain2 .GMColorSelected{background-color:#aadbff}
+.GridMain1 .GridMain2 .GMColorFilter{background-color:#fff}
+.GridMain1 .GridMain2 .GMColorError{background-color:#ff6969}
+.GridMain1 .GridMain2 .GMColorDeleted{background-color:#ffcdcd}
+.GridMain1 .GridMain2 .GMClassDeleted{font-style:italic}
+.GridMain1 .GridMain2 .GMColorAdded{background-color:#cdffcd}
+.GridMain1 .GridMain2 .GMClassAdded{font-weight:700}
+.GridMain1 .GridMain2 .GMColorMoved1{background-color:#fff}
+.GridMain1 .GridMain2 .GMColorMoved2{background-color:#d7ebeb}
+.GridMain1 .GridMain2 .GMColorChanged{background-color:#ebebff}
+.GridMain1 .GridMain2 .GMColorChangedCell{background-color:#e1e1ff}
+.GridMain1 .GridMain2 .GMClassChangedCell{font-weight:700}
+.GridMain1 .GridMain2 .GMColorMaxChildren{background-color:ivory}
+.GridMain1 .GridMain2 .GMColorDetail{background-color:#fff0ff}
+.GridMain1 .GridMain2 .GMColorDetailSelected{background-color:#fff0e0}
+.GridMain1 .GridMain2 .GMColorDragged{background-color:#e0e0c0}
+.GridMain1 .GridMain2 .GMColorFound1{background-color:#ff87ff}
+.GridMain1 .GridMain2 .GMColorFound2{background-color:#ffc387}
+.GridMain1 .GridMain2 .GMColorFound3{background-color:#87ff87}
+.GridMain1 .GridMain2 .GMColorHovered{background-color:#f4edfe}
+.GridMain1 .GridMain2 .GMColorHoveredCell{background-color:#d7c6ee}
+.GridMain1 .GridMain2 .GMColorHoveredCellReadOnly{background-color:#d7c6ee}
+.GridMain1 .GridMain2 .GMColorHoveredCellSpace{background-color:#fff}
+.GridMain1 .GridMain2 .GMColorHoveredCellSpaceEdit{background-color:#c0c0ff}
+.GridMain1 .GridMain2 .GMColorHoveredCellSpaceBool{background-color:#fff}
+.GridMain1 .GridMain2 .GMColorHoveredCellButton{background-color:#d0dde7}
+.GridMain1 .GridMain2 .GMColorHoveredCellButton1{background-color:#add4f5}
+.GridMain1 .GridMain2 .GMColorFocused{background-color:#e9f5d0}
+.GridMain1 .GridMain2 .GMColorFocusedCell{background-color:#fffffe}
+.GridMain1 .GridMain2 .GMColorFocusedCellSpace{background-color:#e6e6e6}
+.GridMain1 .GridMain2 .GMColorFocusedCellButton{background-color:#bcd}
+.GridMain1 .GridMain2 .GMColorFocusedCellHeader{background-color:#fffffe}
+.GridMain1 .GridMain2 .GMColorFocusedCellPanel{background-color:#fffffe}
+.GridMain1 .GridMain2 .GMColorEditedCell{background-color:#fff}
+.GridMain1 .GridMain2 .GMColorViewedCell{background-color:#fff}
+.GridMain1 .GridMain2 .GMHoverRowBackground{opacity:.2;filter:alpha(opacity=20);background:#8238f0}
+.GridMain1 .GridMain2 .GMHoverRowBorder{z-index:0;border-top:1px solid #bda7dc;border-bottom:1px solid #bda7dc}
+.GridMain1 .GridMain2 .GMHoverCellBorder{z-index:0;border:1px solid #bda7dc;cursor:default}
+.GridMain1 .GridMain2 .GMFocusRowBackground{opacity:.1;filter:alpha(opacity=20);background:#08c}
+.GridMain1 .GridMain2 .GMFocusRowBorder{z-index:0;border:1px solid #08c}
+.GridMain1 .GridMain2 .GMFocusCellBorder{z-index:0;border:2px solid #08c}
+.GridMain1 .GridMain2 .GMEditCellSpaceBorder,.GridMain1 .GridMain2 .GMFocusCellSpaceBorder{z-index:4}
+.GridMain1 .GridMain2 .GMEditCellBorder{z-index:0;border:2px solid #08c;outline:0;-webkit-box-shadow:inset 0 1px 1px #08c,0 0 10px #08c;-moz-box-shadow:inset 0 1px 1px #08c,0 0 10px #08c;box-shadow:0 0 10px rgba(0,136,204,1);-moz-outline-offset:0;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+.GridMain1 .GridMain2 .GMEditCellInput{position:relative;overflow:hidden;z-index:2}
+.GridMain1 .GridMain2 .GMCursorBackground,.GridMain1 .GridMain2 .GMCursorBorderBottom,.GridMain1 .GridMain2 .GMCursorBorderLeft,.GridMain1 .GridMain2 .GMCursorBorderRight,.GridMain1 .GridMain2 .GMCursorBorderTop{position:relative;overflow:hidden}
+.GridMain1 .GridMain2 .GMCursorBackground{border:none;padding:0}
+.GridMain1 .GridMain2 .GMCursorBorderLeft{padding-right:0;padding-top:0;padding-bottom:0;border-right:none;border-top:none;border-bottom:none;width:0;height:0}
+.GridMain1 .GridMain2 .GMCursorBorderRight{padding-left:0;padding-top:0;padding-bottom:0;border-left:none;border-top:none;border-bottom:none;width:0;height:0}
+.GridMain1 .GridMain2 .GMCursorBorderTop{padding-bottom:0;padding-left:0;padding-right:0;border-bottom:none;border-left:none;border-right:none;width:0;height:0}
+.GridMain1 .GridMain2 .GMCursorBorderBottom{padding-top:0;padding-left:0;padding-right:0;border-top:none;border-left:none;border-right:none;width:0;height:0}
+.GridMain1 .GridMain2 .GMNoLeft{border-left:0}
+.GridMain1 .GridMain2 .GMNoRight{border-right:0}
+.GridMain1 .GridMain2 .GMMouseObject{opacity:.5;filter:alpha(opacity=50);z-index:300;overflow:hidden}
+.GridMain1 .GridMain2 .GMDragObject{z-index:300;margin-left:10px;margin-top:10px;padding-left:3px;padding-right:3px;background:#e4e5f0;border:1px solid #777}
+.GridMain1 .GridMain2 .GMDragColInsideBottom,.GridMain1 .GridMain2 .GMDragColInsideTop,.GridMain1 .GridMain2 .GMDragColOutsideBottom,.GridMain1 .GridMain2 .GMDragColOutsideTop{position:absolute;width:10px;height:11px;overflow:hidden;z-index:258}
+.GridMain1 .GridMain2 .GMDragColInsideTop{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/in_top.gif) no-repeat}
+.GridMain1 .GridMain2 .GMDragColInsideBottom{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/in_bottom.gif) no-repeat}
+.GridMain1 .GridMain2 .GMDragColOutsideTop{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/out_top.gif) no-repeat}
+.GridMain1 .GridMain2 .GMDragColOutsideBottom{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/out_bottom.gif) no-repeat}
+.GridMain1 .GridMain2 .GMDisabled{position:absolute;z-index:264;background:#fff;opacity:.5;filter:alpha(opacity=50)}
+.GridMain1 .GridMain2 .GMProcess{position:absolute;left:0;top:0;background:#e2f0ff;border:1px solid #777;white-space:nowrap;text-align:center;visibility:hidden;z-index:266}
+.GridMain1 .GridMain2 .GMMessage{background:#e2f0ff;border:1px solid #000;padding:10px;white-space:nowrap;text-align:center;position:absolute;left:0;top:0;visibility:hidden;z-index:266}
+.GridMain1 .GridMain2 .GMMessageShadow{display:none;position:absolute;margin-left:3px;margin-top:3px;z-index:265;background:#888;opacity:.5;filter:alpha(opacity=50);left:0;top:0;visibility:hidden}
+.GridMain1 .GridMain2 .GridTmpTag{position:absolute;left:5px;top:5px;visibility:hidden}
+.GridMain1 .GridMain2 .GMMenuMain{position:absolute;left:0;top:0;z-index:258}
+.GridMain1 .GridMain2 .GMMenuOuter{overflow:hidden;background:#fff;margin:2px;margin-left:-2px;margin-top:1px;border:1px solid #92999e}
+.GridMain1 .GridMain2 .GMMenuHeader{overflow:hidden;position:absolute;z-index:0;border:0 solid #b0b0c0;background:#fff;cursor:pointer;_cursor:hand}
+.GridMain1 .GridMain2 .GMMenuHead{color:#15498b;cursor:pointer;text-align:left;font-weight:700;padding-top:5px;padding-bottom:4px;background:#fdfdfd;background:-moz-linear-gradient(top,#fdfdfd 0,#99bce8 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fdfdfd),color-stop(100%,#99bce8));background:-webkit-linear-gradient(top,#fdfdfd 0,#99bce8 100%);background:-o-linear-gradient(top,#fdfdfd 0,#99bce8 100%);background:-ms-linear-gradient(top,#fdfdfd 0,#99bce8 100%);background:linear-gradient(top,#fdfdfd 0,#99bce8 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#99bce8', GradientType=0 )}
+.GridMain1 .GridMain2 .GMMenuClose{float:right!important;width:14px;cursor:pointer;_cursor:hand;display:none}
+.GridMain1 .GridMain2 .GMMenuBody{cursor:default}
+.GridMain1 .GridMain2 .GMMenuShadow{position:absolute;margin:3px 0 0 3px;z-index:0;display:none;background-color:#888;opacity:.5;filter:alpha(opacity=50)}
+.GridMain1 .GridMain2 .GMMenuCheckedIconRight{padding-right:17px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk1.png) no-repeat 96% center;background-size:16px}
+.GridMain1 .GridMain2 .GMMenuUncheckedIconRight{padding-right:17px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/chk0.png) no-repeat 96% center;background-size:16px}
+.GridMain1 .GridMain2 .GMMenuCursorIcon{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/d_gray_right.gif);background-repeat:no-repeat;background-position:3px center;_background-color:#fff}
+.GridMain1 .GridMain2 .GMMenuHoverIcon{background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/d-right.png);background-repeat:no-repeat;background-size:5px;background-position:3px center;_background-color:#fea}
+.GridMain1 .GridMain2 .GMMenuNextIcon{padding-right:10px}
+.GridMain1 .GridMain2 .GMMenuNextIconRtl{padding-left:10px}
+.GridMain1 .GridMain2 .GMFilterMenuItemText,.GridMain1 .GridMain2 .GMMenuEdit,.GridMain1 .GridMain2 .GMMenuEnum,.GridMain1 .GridMain2 .GMMenuEnumHeader,.GridMain1 .GridMain2 .GMMenuItemIcon,.GridMain1 .GridMain2 .GMMenuItemText{white-space:nowrap;overflow:hidden;vertical-align:middle;padding:2px 0 2px 0;font-size:12px;font-family:NanumGothic,Helvetica,AppleGothic,sans-serif}
+.GridMain1 .GridMain2 .GMMenuItemDisabled{opacity:.5;filter:alpha(opacity=30);overflow:hidden}
+.GridMain1 .GridMain2 .GMMenuLevel{color:#00f;text-align:center}
+.GridMain1 .GridMain2 .GMMenuEditParent,.GridMain1 .GridMain2 .GMMenuEnumParent{padding-left:5px;padding-right:2px}
+.GridMain1 .GridMain2 .GMMenuItemIcon{background-repeat:no-repeat}
+.GridMain1 .GridMain2 .GMMenuEnum{border:1px solid #ddd;border-top:1px solid #666;border-left:1px solid #666;padding-left:15px;overflow:hidden}
+.GridMain1 .GridMain2 .GMMenuEnumHeader{padding:1px 0 2px 16px;cursor:default}
+.GridMain1 .GridMain2 .GMMenuEdit{border:1px solid #ddd;border-top:1px solid #666;border-left:1px solid #666;background:#fff;overflow:hidden;white-space:nowrap;padding-left:2px;padding-right:2px}
+.GridMain1 .GridMain2 .GMMenuEditInput,.GridMain1 .GridMain2 .GMMenuEditTextarea{margin:0;padding:0;border:0;background:#fdd;_margin:-1px;_padding-right:1px;_padding_left:1px}
+.GridMain1 .GridMain2 .GMMenuEditTextarea{line-height:13px}
+.GridMain1 .GridMain2 .GMMenuEditDate,.GridMain1 .GridMain2 .GMMenuEditFloat,.GridMain1 .GridMain2 .GMMenuEditInt{text-align:right}
+.GridMain1 .GridMain2 .GMMenuEditMulti{white-space:normal}
+.GridMain1 .GridMain2 .GMMenuItem{background-color:#fff;padding:2px}
+.GridMain1 .GridMain2 .GMMenuItemHover{background-color:#fea;border:1px solid #aad;margin:0 1px;padding:1px 0}
+.GridMain1 .GridMain2 .GMMenuFocusHover{margin:1px;background-color:#cae1f3;border:1px solid #000}
+.GridMain1 .GridMain2 .GMMenuFocus{margin:1px;background-color:#cae1f3;border:1px solid #aad}
+.GridMain1 .GridMain2 .GMMenuSeparator{margin:1px 3px 0 3px;height:1px;border-top:1px solid #aad;overflow:hidden}
+.GridMain1 .GridMain2 .GMMenuCaption{padding:2px;background:#fff;color:#00f;text-align:center}
+.GridMain1 .GridMain2 .GMMenuVSeparator{border-right:1px solid #ddd}
+.GridMain1 .GridMain2 .GMMenuFoot{border-top:none;text-align:center;white-space:nowrap}
+.GridMain1 .GridMain2 .GMMenuButton{font-size:11px;background:#dcecf8;text-align:center;border:1px solid #8a8fb5;margin:5px 2px 4px 2px;padding:0;white-space:nowrap;width:48px}
+.GridMain1 .GridMain2 .GMMenuButtonHover{background:#fea;border:1px solid #aad}
+.GridMain1 .GridMain2 .GMEnumMenuItem{background-color:#fff;padding:2px;padding-top:0;padding-bottom:0}
+.GridMain1 .GridMain2 .GMEnumMenuFocus{margin:1px;background-color:rgba(0,136,204,.2);border:1px solid #2d8cdb}
+.GridMain1 .GridMain2 .GMEnumMenuFocusHover{margin:1px;background-color:rgba(0,136,204,.2);border:1px solid #2d8cdb}
+.GridMain1 .GridMain2 .GMEnumMenuItemHover{background-color:#f2f2f2;border:0 solid #aad;margin:0 1px;padding:1px;padding-top:0;padding-bottom:0}
+.GridMain1 .GridMain2 .GMEnumMenuColBorderColor{border-color:#e0e0ff;font-size:12px;font-family:NanumGothic,Helvetica,AppleGothic,sans-serif}
+.GridMain1 .GridMain2 .GMSuggestMenuItem{background-color:#fff;padding:2px;padding-top:0;padding-bottom:0}
+.GridMain1 .GridMain2 .GMSuggestMenuFocus{margin:1px;background-color:#cae1f3;border:1px solid #aad}
+.GridMain1 .GridMain2 .GMSuggestMenuFocusHover{margin:1px;background-color:#cae1f3;border:1px solid #000}
+.GridMain1 .GridMain2 .GMSuggestMenuItemHover{background-color:#fea;border:0 solid #aad;margin:0 1px;padding:1px;padding-top:0;padding-bottom:0}
+.GridMain1 .GridMain2 .GMSuggestMenuColBorderColor{border-color:#e0e0ff}
+.GridMain1 .GridMain2 .GMCfgMenuOuter,.GridMain1 .GridMain2 .GMColumnsMenuOuter{border:1px solid #000}
+.GridMain1 .GridMain2 .GMCfgMenuHead,.GridMain1 .GridMain2 .GMColumnsMenuHead{padding-left:3px}
+.GridMain1 .GridMain2 .GMCfgMenuBody,.GridMain1 .GridMain2 .GMColumnsMenuBody{padding-left:4px;padding-right:4px}
+.GridMain1 .GridMain2 .GMCfgMenuFoot,.GridMain1 .GridMain2 .GMColumnsMenuFoot{padding-right:3px;padding-left:3px}
+.GridMain1 .GridMain2 .GMCfgMenuButton{width:70px}
+.GridMain1 .GridMain2 .GMCfgMenuItemText,.GridMain1 .GridMain2 .GMColumnsMenuItemText{padding-left:3px}
+.GridMain1 .GridMain2 .GMColumnsMenuItemText{white-space:nowrap}
+.GridMain1 .GridMain2 .GMCfgMenuItem,.GridMain1 .GridMain2 .GMColumnsMenuItem{padding-top:3px;padding-bottom:3px}
+.GridMain1 .GridMain2 .GMCfgMenuFocus,.GridMain1 .GridMain2 .GMCfgMenuFocusHover,.GridMain1 .GridMain2 .GMCfgMenuItemHover,.GridMain1 .GridMain2 .GMColumnsMenuFocus,.GridMain1 .GridMain2 .GMColumnsMenuFocusHover,.GridMain1 .GridMain2 .GMColumnsMenuItemHover{padding-top:2px;padding-bottom:2px}
+.GridMain1 .GridMain2 .GMPopupGridOuter{border:0;overflow:visible}
+.GridMain1 .GridMain2 .GMPopupGridHead{padding:0}
+.GridMain1 .GridMain2 .GMPopupGridBody{padding:0}
+.GridMain1 .GridMain2 .GMPopupGridFoot{padding:0}
+.GridMain1 .GridMain2 .GMPopupGridButton{width:50px;margin-top:-2px;margin-bottom:3px}
+.GridMain1 .GridMain2 .GMPickMain{position:absolute;left:0;top:0;z-index:258;font-size:12px;font-family:NanumGothic,Helvetica,AppleGothic,sans-serif}
+.GridMain1 .GridMain2 .GMPickOuter{overflow:hidden;background:#fff;border:1px solid #e1e3e4}
+.GridMain1 .GridMain2 .GMPickHeader{overflow:hidden;position:absolute;z-index:258;border:1px solid #000;background:#fff;cursor:pointer;_cursor:hand}
+.GridMain1 .GridMain2 .GMPickHeaderBottom{border-bottom:0;padding-bottom:1px}
+.GridMain1 .GridMain2 .GMPickHeaderTop{border-top:0;padding-bottom:1px}
+.GridMain1 .GridMain2 .GMPickHead{background:#5c8397;font:10px NanumGothic,Verdana,Arial;color:#fff;cursor:default;padding-left:5px;padding-top:1px;padding-bottom:1px;border-bottom:1px solid #fff}
+.GridMain1 .GridMain2 .GMPickClose{float:right;width:14px;cursor:pointer;_cursor:hand;display:none}
+.GridMain1 .GridMain2 .GMPickBody{cursor:default;padding:0}
+.GridMain1 .GridMain2 .GMPickShadow{position:absolute;background:#888;z-index:257;margin:3px 0 0 3px;opacity:.5;filter:alpha(opacity=50)}
+.GridMain1 .GridMain2 .GMPick2Footer,.GridMain1 .GridMain2 .GMPickFooter{text-align:center;padding:2px;cursor:default;background:#eff0f1;border-top:1px solid #e3e4e6}
+.GridMain1 .GridMain2 .GMPickMY{background-color:#383838;border-bottom:1px solid #99bce8;color:#fff;text-shadow:0 0 1px rgba(0,0,0,.2);cursor:default;text-align:center;padding:7px 0 7px 0}
+.GridMain1 .GridMain2 .GMPickMYDown{padding-right:13px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/d-down.png) no-repeat right;cursor:pointer;_cursor:hand;background-size:10px;font-weight:600}
+.GridMain1 .GridMain2 .GMPickMYUp{padding-right:13px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/d-up.png) no-repeat right center;cursor:pointer;_cursor:hand;background-size:10px;font-weight:600}
+.GridMain1 .GridMain2 .GMPickMYRtl{padding-right:0;padding-left:13px}
+.GridMain1 .GridMain2 .GMPickBL,.GridMain1 .GridMain2 .GMPickBR{padding-top:13px;cursor:pointer;_cursor:hand;width:16px;height:14px;overflow:hidden}
+.GridMain1 .GridMain2 .GMPickBL{float:left!important;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/d-left.png) no-repeat 50%;background-size:7px}
+.GridMain1 .GridMain2 .GMPickBR{float:right!important;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/d-right.png) no-repeat 50%;background-size:7px}
+.GridMain1 .GridMain2 .GMPickTable{width:234px!important}
+.GridMain1 .GridMain2 .GMPickRow{background:#fff}
+.GridMain1 .GridMain2 .GMPickRowW{background:#efefef}
+.GridMain1 .GridMain2 .GMPickCell{width:27px;height:24px;border:1px solid #efefef;vertical-align:middle}
+.GridMain1 .GridMain2 .GMPickWDN{background:0 0;color:#333;text-align:center;cursor:default;text-shadow:0 0 1px rgba(0,0,0,.2);margin:3px 5.2px;padding:1px}
+.GridMain1 .GridMain2 .GMPickHo,.GridMain1 .GridMain2 .GMPickHover,.GridMain1 .GridMain2 .GMPickNow,.GridMain1 .GridMain2 .GMPickNowNE,.GridMain1 .GridMain2 .GMPickOM,.GridMain1 .GridMain2 .GMPickOMNE,.GridMain1 .GridMain2 .GMPickSa,.GridMain1 .GridMain2 .GMPickSaNE,.GridMain1 .GridMain2 .GMPickSel,.GridMain1 .GridMain2 .GMPickSelHover,.GridMain1 .GridMain2 .GMPickSelNE,.GridMain1 .GridMain2 .GMPickSu,.GridMain1 .GridMain2 .GMPickSuNE,.GridMain1 .GridMain2 .GMPickWD,.GridMain1 .GridMain2 .GMPickWDNE{text-align:center;border:1px solid #fff;cursor:pointer;_cursor:hand}
+.GridMain1 .GridMain2 .GMPickWN,.GridMain1 .GridMain2 .GMPickWNE{text-align:center;cursor:pointer;_cursor:hand;padding:5px 4px;background:#efefef;white-space:nowrap}
+.GridMain1 .GridMain2 .GMPickNowNE,.GridMain1 .GridMain2 .GMPickSaNE,.GridMain1 .GridMain2 .GMPickSelNE,.GridMain1 .GridMain2 .GMPickSuNE,.GridMain1 .GridMain2 .GMPickWDNE,.GridMain1 .GridMain2 .GMPickWNE{cursor:default}
+.GridMain1 .GridMain2 .GMPickWD{background-color:#fff;font-family:Arial;text-shadow:0 0 1px rgba(0,0,0,.2)}
+.GridMain1 .GridMain2 .GMPickSa{background-color:#fff;color:#00f;font-family:Arial;text-shadow:0 0 1px rgba(0,0,0,.2)}
+.GridMain1 .GridMain2 .GMPickSu{background-color:#fff;color:red;font-family:Arial;text-shadow:0 0 1px rgba(0,0,0,.2)}
+.GridMain1 .GridMain2 .GMPickHo{background-color:#fff;color:orange;font-family:Arial;text-shadow:0 0 1px rgba(0,0,0,.2)}
+.GridMain1 .GridMain2 .GMPickSel{background:radial-gradient(ellipse at center,#3873ff 0,#376efe 44%,#294fe0 100%);border:0;color:#fff;padding:5px 6px;font-family:Arial;text-shadow:0 0 1px rgba(0,0,0,.2);background:-moz-radial-gradient(center,ellipse cover,#3873ff 0,#376efe 44%,#294fe0 100%);background:-webkit-gradient(radial,center center,0,center center,100%,color-stop(0,#3873ff),color-stop(44%,#376efe),color-stop(100%,#294fe0));background:-webkit-radial-gradient(center,ellipse cover,#3873ff 0,#376efe 44%,#294fe0 100%);background:-o-radial-gradient(center,ellipse cover,#3873ff 0,#376efe 44%,#294fe0 100%);background:-ms-radial-gradient(center,ellipse cover,#3873ff 0,#376efe 44%,#294fe0 100%)}
+.GridMain1 .GridMain2 .GMPickSelNE{background-color:#fbea54;border:1px solid #dad1d1;font-family:Arial;text-shadow:0 0 1px rgba(0,0,0,.2)}
+.GridMain1 .GridMain2 .GMPickNow{background:radial-gradient(ellipse at center,#ff670f 0,#ff843d 44%,#ff670f 100%);border:0;color:#fff;padding:5px 6px;font-family:Arial;text-shadow:0 0 1px rgba(0,0,0,.2);background:-moz-radial-gradient(center,ellipse cover,#ff670f 0,#ff843d 44%,#ff670f 100%);background:-webkit-gradient(radial,center center,0,center center,100%,color-stop(0,#ff670f),color-stop(44%,#ff843d),color-stop(100%,#ff670f));background:-webkit-radial-gradient(center,ellipse cover,#ff670f 0,#ff843d 44%,#ff670f 100%);background:-o-radial-gradient(center,ellipse cover,#ff670f 0,#ff843d 44%,#ff670f 100%);background:-ms-radial-gradient(center,ellipse cover,#ff670f 0,#ff843d 44%,#ff670f 100%)}
+.GridMain1 .GridMain2 .GMPickNowNE{background-color:#c0f3ff;border:1px solid #dad1d1;font-family:Arial;text-shadow:0 0 1px rgba(0,0,0,.2)}
+.GridMain1 .GridMain2 .GMPickHover{background:radial-gradient(ellipse at center,#585858 0,#3b3b3b 44%,#313131 100%);color:#fff;border:0;padding:5px 6px;font-family:Arial;background:-moz-radial-gradient(center,ellipse cover,#585858 0,#3b3b3b 44%,#313131 100%);background:-webkit-gradient(radial,center center,0,center center,100%,color-stop(0,#585858),color-stop(44%,#3b3b3b),color-stop(100%,#313131));background:-webkit-radial-gradient(center,ellipse cover,#585858 0,#3b3b3b 44%,#313131 100%);background:-o-radial-gradient(center,ellipse cover,#585858 0,#3b3b3b 44%,#313131 100%);background:-ms-radial-gradient(center,ellipse cover,#585858 0,#3b3b3b 44%,#313131 100%)}
+.GridMain1 .GridMain2 .GMPickSelHover{background-color:#eea;border:0;font-family:Arial;text-shadow:0 0 1px rgba(0,0,0,.2)}
+.GridMain1 .GridMain2 .GMPickOM{background-color:#fff;color:#aaa;font-family:Arial;text-shadow:0 0 1px rgba(0,0,0,.2)}
+.GridMain1 .GridMain2 .GMPickOMNE{color:#aaa}
+.GridMain1 .GridMain2 .GMPickEmpty{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/d_blank.png) no-repeat 50%;cursor:pointer;_cursor:hand;padding:3px 0;background-size:14px}
+.GridMain1 .GridMain2 .GMPickTimeCell{text-align:right;padding-bottom:4px;padding-top:6px;padding-right:5px;border-top:1px solid #8ca9e1;background:#eff0f1}
+.GridMain1 .GridMain2 .GMPickTime{border:0 none;white-space:nowrap;text-align:right;background:#eff0f1}
+.GridMain1 .GridMain2 .GMPickButton{background:#fdfdfd;text-align:center;border:1px solid #b5b0b0;cursor:pointer;text-shadow:0 0 1px rgba(0,0,0,.2);width:45px;height:24px;font:inherit;margin:2px;border-radius:4px}
+.GridMain1 .GridMain2 .GMPickButtonHover{background:#fdfdfd;border:1px solid #373737}
+.GridMain1 .GridMain2 .GMPick2Table{width:234px!important;vertical-align:middle}
+.GridMain1 .GridMain2 .GMPick2CellM{height:20px;width:55px}
+.GridMain1 .GridMain2 .GMPick2CellY{height:20px;width:55px;vertical-align:middle}
+.GridMain1 .GridMain2 .GMPick2CellSep{height:20px;width:5px}
+.GridMain1 .GridMain2 .GMPick2Cell{vertical-align:middle}
+.GridMain1 .GridMain2 .GMPick2M,.GridMain1 .GridMain2 .GMPick2MHover,.GridMain1 .GridMain2 .GMPick2MSel,.GridMain1 .GridMain2 .GMPick2MSelHover,.GridMain1 .GridMain2 .GMPick2Y,.GridMain1 .GridMain2 .GMPick2YHover,.GridMain1 .GridMain2 .GMPick2YSel,.GridMain1 .GridMain2 .GMPick2YSelHover{cursor:pointer;_cursor:hand;text-align:center;margin-left:1px;margin-right:1px;padding-left:4px;padding-right:4px;overflow:hidden}
+.GridMain1 .GridMain2 .GMPick2MSel,.GridMain1 .GridMain2 .GMPick2YSel{background-color:rgba(0,136,204,.2);border:1px solid #2d8cdb;margin-left:0;margin-right:0}
+.GridMain1 .GridMain2 .GMPick2MHover,.GridMain1 .GridMain2 .GMPick2YHover{background:#ddd;border:1px solid #fff;margin-left:0;margin-right:0}
+.GridMain1 .GridMain2 .GMPick2MSelHover,.GridMain1 .GridMain2 .GMPick2YSelHover{background-color:rgba(0,136,204,.2);border:1px solid #2d8cdb;margin-left:0;margin-right:0}
+.GridMain1 .GridMain2 .GMPick2SepH{width:1px;height:1px;overflow:hidden}
+.GridMain1 .GridMain2 .GMPick2Sep{width:1px;background:#e3e4e6;overflow:hidden;margin-left:2px;margin-right:2px;height:20px}
+.GridMain1 .GridMain2 .GMPick2BL,.GridMain1 .GridMain2 .GMPick2BR{width:54px;cursor:pointer;_cursor:hand}
+.GridMain1 .GridMain2 .GMPick2BL{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/d_left_cal.png) no-repeat center center;background-size:12px}
+.GridMain1 .GridMain2 .GMPick2BR{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/d_right_cal.png) no-repeat center center;background-size:12px}
+.GridMain1 .GridMain2 .GMEdit,.GridMain1 .GridMain2 .GMEditInline{padding:2px 4px;border:1px solid #ddd;border-top:1px solid #666;border-left:1px solid #666;background:#fff;white-space:nowrap;overflow:hidden}
+.GridMain1 .GridMain2 .GMEditInline{display:inline-block;vertical-align:bottom}
+.GridMain1 .GridMain2 .GMEditInput,.GridMain1 .GridMain2 .GMEditTextarea{border:0 solid transparent!important;margin:0;padding:0;padding-right:1px!important;vertical-align:middle;font-size:12px;font-family:NanumGothic,Helvetica,AppleGothic,sans-serif}
+.GridMain1 .GridMain2 .GMEditDate{z-index:-500!important}
+.GridMain1 .GridMain2 .GMEditTextarea{line-height:13px}
+.GridMain1 .GridMain2 .GMEditSpaceInput{vertical-align:middle}
+.GridMain1 .GridMain2 .GMEditNormalInput,.GridMain1 .GridMain2 .GMEditNormalTextarea,.GridMain1 .GridMain2 .GMEditSpaceTextarea{padding-left:5px;background-color:#fff}
+.GridMain1 .GridMain2 .GMEditFloat,.GridMain1 .GridMain2 .GMEditInt{text-align:right}
+.GridMain1 .GridMain2 .GMEditMulti{white-space:normal}
+.GridMain1 .GridMain2 .GMEditReadOnly{background-color:#fef}
+.GridMain1 .GridMain2 .GMEditParent{position:absolute;z-index:258;overflow:hidden}
+.GridMain1 .GridMain2 .GMEnumHeaderLeft,.GridMain1 .GridMain2 .GMEnumHeaderNone,.GridMain1 .GridMain2 .GMEnumHeaderRight{background:#fff;cursor:pointer;_cursor:hand;vertical-align:middle;text-align:left;padding:2px 0 2px 2px;font-size:12px;font-family:NanumGothic,Helvetica,AppleGothic,sans-serif}
+.GridMain1 .GridMain2 .GMEnumHeaderRight{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/combo.png) no-repeat right center;margin:3px 4px 0 6px;background-size:16px}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.GridMain1 .GridMain2 .GMEnumHeaderRight{margin:3px 4px 0 6px}
+}
+.GridMain1 .GridMain2 .GMEnumHeaderRight,x:-moz-any-link,x:default{margin:3px 4px 0 6px}
+@media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0){
+.GridMain1 .GridMain2 .GMEnumHeaderRight{margin:1px 0 0 0}
+}
+.GridMain1 .GridMain2 .GMEnumMenuHeader{background:#fff}
+.GridMain1 .GridMain2 .GMEnumControl,.GridMain1 .GridMain2 .GMEnumInline{cursor:pointer;_cursor:hand;padding-left:15px;padding-right:4px;padding-top:2px;padding-bottom:2px;border:1px solid #ddd;border-top:1px solid #666;border-left:1px solid #666;overflow:hidden}
+.GridMain1 .GridMain2 .GMEnumInline{display:inline-block;vertical-align:bottom}
+.GridMain1 .GridMain2 .GMEnumHeader{cursor:pointer;_cursor:hand;padding-left:15px;padding-right:4px;padding-top:2px;padding-bottom:2px}
+.GridMain1 .GridMain2 .GMCustScroll1RightHidden{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) left -108px;height:18px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll1Right{padding-right:18px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) right 0}
+.GridMain1 .GridMain2 .GMCustScroll1RightHover{padding-right:18px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) right -18px}
+.GridMain1 .GridMain2 .GMCustScroll1Left{padding-left:18px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) left 0}
+.GridMain1 .GridMain2 .GMCustScroll1LeftHover{padding-left:18px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) left -18px}
+.GridMain1 .GridMain2 .GMCustScroll1SliderRight{padding-right:3px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) right -36px}
+.GridMain1 .GridMain2 .GMCustScroll1SliderLeft{padding-left:3px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) left -36px}
+.GridMain1 .GridMain2 .GMCustScroll1SliderHIn{height:18px;overflow:hidden;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) center -54px}
+.GridMain1 .GridMain2 .GMCustScroll1SliderRightHover{padding-right:3px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) right -72px}
+.GridMain1 .GridMain2 .GMCustScroll1SliderLeftHover{padding-left:3px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) left -72px}
+.GridMain1 .GridMain2 .GMCustScroll1SliderHInHover{height:18px;overflow:hidden;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) center -90px}
+.GridMain1 .GridMain2 .GMCustScroll2RightHidden{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) left -460px;height:10px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll2Right{padding-right:10px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) right -400px}
+.GridMain1 .GridMain2 .GMCustScroll2RightHover{padding-right:10px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) right -410px}
+.GridMain1 .GridMain2 .GMCustScroll2Left{padding-left:10px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) left -400px}
+.GridMain1 .GridMain2 .GMCustScroll2LeftHover{padding-left:10px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) left -410px}
+.GridMain1 .GridMain2 .GMCustScroll2SliderRight{padding-right:6px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) right -420px}
+.GridMain1 .GridMain2 .GMCustScroll2SliderLeft{padding-left:6px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) left -420px}
+.GridMain1 .GridMain2 .GMCustScroll2SliderHIn{height:10px;overflow:hidden;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) center -430px}
+.GridMain1 .GridMain2 .GMCustScroll2SliderRightHover{padding-right:6px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) right -440px}
+.GridMain1 .GridMain2 .GMCustScroll2SliderLeftHover{padding-left:6px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) left -440px}
+.GridMain1 .GridMain2 .GMCustScroll2SliderHInHover{height:10px;overflow:hidden;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) center -450px}
+.GridMain1 .GridMain2 .GMCustScroll3Right,.GridMain1 .GridMain2 .GMCustScroll3RightHidden{background:#fff;height:9px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll3SliderRight,.GridMain1 .GridMain2 .GMCustScroll3SliderRightHover{padding-right:3px;height:9px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) right -126px}
+.GridMain1 .GridMain2 .GMCustScroll3SliderLeft,.GridMain1 .GridMain2 .GMCustScroll3SliderLeftHover{height:9px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/VScroll.png) left -126px}
+.GridMain1 .GridMain2 .GMCustScroll3SliderRightHover{background-position:right -135px}
+.GridMain1 .GridMain2 .GMCustScroll3SliderLeftHover{background-position:left -135px}
+.GridMain1 .GridMain2 .GMCustScroll4Right,.GridMain1 .GridMain2 .GMCustScroll4RightHidden,.GridMain1 .GridMain2 .GMCustScroll4SliderRight,.GridMain1 .GridMain2 .GMCustScroll4SliderRightHover{height:1px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll1DownHidden{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -108px top;width:18px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll1Down{padding-bottom:18px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) 0 bottom;cursor:default;width:18px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll1DownHover{padding-bottom:18px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -18px bottom;width:18px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll1Up{padding-top:18px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) 0 top;width:18px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll1UpHover{padding-top:18px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -18px top;width:18px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll1SliderDown{padding-bottom:3px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -36px bottom;width:18px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll1SliderUp{padding-top:3px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -36px top;width:18px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll1SliderVIn{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -54px center;width:18px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll1SliderDownHover{padding-bottom:3px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -72px bottom;width:18px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll1SliderUpHover{padding-top:3px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -72px top;width:18px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll1SliderVInHover{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -90px center;width:18px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll2DownHidden{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -460px top;width:10px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll2Down{padding-bottom:10px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -400px bottom;cursor:default;width:10px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll2DownHover{padding-bottom:10px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -410px bottom;width:10px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll2Up{padding-top:10px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -400px top;width:10px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll2UpHover{padding-top:10px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -410px top;width:10px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll2SliderDown{padding-bottom:6px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -420px bottom;width:10px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll2SliderUp{padding-top:6px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -420px top;width:10px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll2SliderVIn{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -430px center;width:10px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll2SliderDownHover{padding-bottom:6px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -440px bottom;width:10px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll2SliderUpHover{padding-top:6px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -440px top;width:10px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll2SliderVInHover{background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -450px center;width:10px;overflow:hidden}
+.GridMain1 .GridMain2 .GMCustScroll3Down,.GridMain1 .GridMain2 .GMCustScroll3DownHidden{background:#fff;width:9px;overflow:hidden;cursor:default}
+.GridMain1 .GridMain2 .GMCustScroll3SliderDown,.GridMain1 .GridMain2 .GMCustScroll3SliderDownHover{padding-bottom:3px;width:9px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -126px bottom}
+.GridMain1 .GridMain2 .GMCustScroll3SliderUp,.GridMain1 .GridMain2 .GMCustScroll3SliderUpHover{width:9px;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/HScroll.png) -126px top;cursor:default}
+.GridMain1 .GridMain2 .GMCustScroll3SliderDownHover{background-position:-135px bottom}
+.GridMain1 .GridMain2 .GMCustScroll3SliderUpHover{background-position:-135px top;cursor:default}
+.GridMain1 .GridMain2 .GMCustScroll4Down,.GridMain1 .GridMain2 .GMCustScroll4DownHidden,.GridMain1 .GridMain2 .GMCustScroll4SliderDown,.GridMain1 .GridMain2 .GMCustScroll4SliderDownHover{width:1px;overflow:hidden}
+.GridMain1 .GridMain2 .GMHintMain{position:absolute;margin-left:-1px;margin-top:-1px;left:0;top:0;z-index:260;background:#fff;cursor:default}
+.GridMain1 .GridMain2 .GMHintOuter{overflow:hidden;border:1px solid #000;background:#fff!important;color:#000;text-align:left}
+.GridMain1 .GridMain2 .GMHintHeaderOuter{background-color:#39aefb!important;color:#fff;border:1px solid #fff}
+.GridMain1 .GridMain2 .GMHintShadow{position:absolute;z-index:259;background:#888;opacity:.3;filter:alpha(opacity=30);margin-left:2px;margin-top:2px}
+.GridMain1 .GridMain2 .GMTipMain{position:absolute;left:0;top:0;z-index:262;visibility:hidden}
+.GridMain1 .GridMain2 .GMTipOuter{overflow:hidden;cursor:default;font:12px Arial;padding-left:3px;padding-right:3px;background:#e4e5f0;border:1px solid #777}
+.GridMain1 .GridMain2 .GMTipBody{background:#e4e5f0;white-space:nowrap}
+.GridMain1 .GridMain2 .GMTipShadow{position:absolute;z-index:261;background:#888;opacity:.3;filter:alpha(opacity=30);visibility:hidden;margin-left:3px;margin-top:3px}
+.GridMain1 .GridMain2 .GMMouseOrig{background:#ff0!important;opacity:.5;filter:alpha(opacity=50)}
+.GridMain1 .GridMain2 .GMMouseDragObject{position:absolute;z-index:260;background:#888;opacity:.5;filter:alpha(opacity=50)}
+.GridMain1 .GridMain2 .GMFocus{border:1px solid #aaf;border-top:1px solid #00f;border-left:1px solid #00f;background-color:#eee}
+.GridMain1 .GridMain2 .GridDisabled{position:absolute;z-index:256;background:#fff;opacity:.5;filter:alpha(opacity=50)}
+.GridMain1 .GridMain2 .GMLoaded{border:1px solid #000!important}
+.GridMain1 .GridMain2 .GMSumCell{background:#f0ede6;color:#ff6407;text-shadow:0 0 1px rgba(0,0,0,.2)}
+.GridMain1 .GridMain2 .GMSubSumCell{background:#ffffef;border-bottom:1px solid #f5d9cd;color:#f60}
+.GridMain1 .GridMain2 .GMCumulateCell{background:#ffffef;border-bottom:1px solid #f5d9cd;color:#ae4600}
+.GridMain1 .GridMain2 .GMH1Pop,.GridMain1 .GridMain2 .GMPPop{margin:0;padding:0}
+.GridMain1 .GridMain2 .GMPaddingl10{padding-left:10px}
+.GridMain1 .GridMain2 .GMPaddingT10{padding-top:10px}
+.GridMain1 .GridMain2 .GMPPop{padding:0 0 10px 0;text-align:center}
+.GridMain1 .GridMain2 .GMPop{width:410px;overflow:hidden;border:1px solid #426b8c;padding:0;font-size:12px;background:#ebf2f5;font-family:dotum,Arial,Helvetica,sans-serif}
+.GridMain1 .GridMain2 .GMPopTitle{width:100%;border-bottom:1px solid #99bce8;font-size:12px;font-weight:700;display:block;line-height:28px;color:#15498b;background:#c9e1f5;background:-moz-linear-gradient(top,#c9e1f5 0,#99bce8 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#c9e1f5),color-stop(100%,#99bce8));background:-webkit-linear-gradient(top,#c9e1f5 0,#99bce8 100%);background:-o-linear-gradient(top,#c9e1f5 0,#99bce8 100%);background:-ms-linear-gradient(top,#c9e1f5 0,#99bce8 100%);background:linear-gradient(top,#c9e1f5 0,#99bce8 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9e1f5', endColorstr='#99bce8', GradientType=0 )}
+.GridMain1 .GridMain2 .GMPopSearch{margin:5px;overflow:hidden}
+.GridMain1 .GridMain2 .GMPopContent{border:1px solid #d0dbe8;background-color:#fff}
+.GridMain1 .GridMain2 .GMPopUl,.GridMain1 .GridMain2 .GMPopUl2{list-style:none;margin:0;padding:10px}
+.GridMain1 .GridMain2 .GMPopDiv{overflow:hidden;width:100%}
+.GridMain1 .GridMain2 .GMPopDiv2{overflow:hidden;width:100%}
+.GridMain1 .GridMain2 .GMPopLeft,.GridMain1 .GridMain2 .GMPopLeft2,.GridMain1 .GridMain2 .GMPopLeft3{width:220px;float:left!important}
+.GridMain1 .GridMain2 .GMPopRight,.GridMain1 .GridMain2 .GMPopRight2,.GridMain1 .GridMain2 .GMPopRight3{width:166px;float:right!important}
+.GridMain1 .GridMain2 .GMPopUl input{margin:-2px 2px 0 0;padding:0;width:13px;height:13px;vertical-align:middle}
+.GridMain1 .GridMain2 .GMPopUl li{padding-top:4px;padding-bottom:3px;padding-left:5px}
+.GridMain1 .GridMain2 .GMPopUl2 li{padding-top:4px;padding-bottom:3px}
+.GridMain1 .GridMain2 .GMBtnArea{margin-top:10px;text-align:center}
+.GridMain1 .GridMain2 .GMPopLeft,.GridMain1 .GridMain2 .GMPopRight{height:120px}
+.GridMain1 .GridMain2 .GMPopLeft2,.GridMain1 .GridMain2 .GMPopRight2{height:120px}
+.GridMain1 .GridMain2 .GMPopLabel{line-height:12px;margin:0 0 0 2px}
+.GridMain1 .GridMain2 .GMPopSubtitle{font-weight:700;color:#000;border-bottom:1px solid #e0e0e0;background-color:#e7e7e7;padding-left:4px}
+.GridMain1 .GridMain2 .GMPopBtn{text-align:center;text-decoration:none;color:#fff;position:relative;border:1px solid #316290;font-size:12px;width:50px!important;height:22px!important;cursor:pointer}
+.GridMain1 .GridMain2 .GMPopBtn2{text-align:center;text-decoration:none;color:#fff;position:relative;border:1px solid #316290;font-size:12px;height:22px!important;cursor:pointer}
+.GridMain1 .GridMain2 .GMPopBtn,.GridMain1 .GridMain2 .GMPopBtn:hover{color:#fff}
+.GridMain1 .GridMain2 .GMPopBtnBlue{background:#5689b9;background:-moz-linear-gradient(top,#5689b9 0,#3a6ea0 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#5689b9),color-stop(100%,#3a6ea0));background:-webkit-linear-gradient(top,#5689b9 0,#3a6ea0 100%);background:-o-linear-gradient(top,#5689b9 0,#3a6ea0 100%);background:-ms-linear-gradient(top,#5689b9 0,#3a6ea0 100%);background:linear-gradient(top,#5689b9 0,#3a6ea0 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#5689b9', endColorstr='#3a6ea0', GradientType=0 )}
+.GridMain1 .GridMain2 .GMPopBtnBlue:hover{background:#3a6ea0;background:-moz-linear-gradient(top,#3a6ea0 0,#5689b9 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#3a6ea0),color-stop(100%,#5689b9));background:-webkit-linear-gradient(top,#3a6ea0 0,#5689b9 100%);background:-o-linear-gradient(top,#3a6ea0 0,#5689b9 100%);background:-ms-linear-gradient(top,#3a6ea0 0,#5689b9 100%);background:linear-gradient(top,#3a6ea0 0,#5689b9 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a6ea0', endColorstr='#5689b9', GradientType=0 )}
+.GridMain1 .GridMain2 .GMPopDisc{margin:0 8px 8px 8px;background-color:#ebf2f5;border:1px solid #d0dbe8}
+.GridMain1 .GridMain2 .GMPopDisc ul{padding:0;margin-left:0;margin-top:10px;margin-bottom:0}
+.GridMain1 .GridMain2 .GMPopDisc li{list-style:none;background:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/bullet.gif) no-repeat 5px 3px;margin-bottom:8px;padding-left:13px;color:#426b8c;word-break:break-all}
+.GridMain1 .GridMain2 .GMPopChkArea{margin:8px;height:25px}
+.GridMain1 .GridMain2 .GMPopChkArea ul{margin:0;padding:0;float:right!important;background-color:#ebf2f5;border:1px solid #d0dbe8}
+.GridMain1 .GridMain2 .GMPopChkArea li{float:left!important;padding:3px 5px 0 5px;list-style:none;color:#426b8c;font-weight:700}
+.GridMain1 .GridMain2 .GMPopFilter{width:250px}
+.GridMain1 .GridMain2 .GMPopClose,.GridMain1 .GridMain2 .GMPopHelp0,.GridMain1 .GridMain2 .GMPopHelp1{cursor:pointer;margin-top:4px;padding-right:3px;float:right!important;height:20px;border:0 none;background-repeat:no-repeat;padding-left:12px;background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/filter_btn.gif)}
+.GridMain1 .GridMain2 .GMPopHelp0{background-position:0 0}
+.GridMain1 .GridMain2 .GMPopHelp1{background-position:-23px 0}
+.GridMain1 .GridMain2 .GMPopClose{background-position:-46px 0}
+.GridMain1 .GridMain2 .GMEditPager{margin:0;padding:0;padding-right:1px!important;vertical-align:middle;font-size:12px;font-family:NanumGothic,Helvetica,AppleGothic,sans-serif}
+.GridMain1 .GridMain2 .GMToolPagerFirst,.GridMain1 .GridMain2 .GMToolPagerFirst1,.GridMain1 .GridMain2 .GMToolPagerLast,.GridMain1 .GridMain2 .GMToolPagerLast1,.GridMain1 .GridMain2 .GMToolPagerNext,.GridMain1 .GridMain2 .GMToolPagerNext1,.GridMain1 .GridMain2 .GMToolPagerPrev,.GridMain1 .GridMain2 .GMToolPagerPrev1{border:0 none;background-repeat:no-repeat;padding-left:16px;padding-right:3px;background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/pager.png);background-size:350px}
+.GridMain1 .GridMain2 .GMToolPagerFirst1{background-position:0 0}
+.GridMain1 .GridMain2 .GMToolPagerFirst{background-position:-30px 0}
+.GridMain1 .GridMain2 .GMToolPagerPrev1{background-position:-120px 0}
+.GridMain1 .GridMain2 .GMToolPagerPrev{background-position:-150px 0}
+.GridMain1 .GridMain2 .GMToolPagerNext1{background-position:-180px 0}
+.GridMain1 .GridMain2 .GMToolPagerNext{background-position:-210px 0}
+.GridMain1 .GridMain2 .GMToolPagerLast1{background-position:-300px 0}
+.GridMain1 .GridMain2 .GMToolPagerLast{background-position:-330px 0}
+.GridMain1 .GridMain2 .GMToolCollapse1,.GridMain1 .GridMain2 .GMToolExpand1{border:0 none;background-repeat:no-repeat;padding-left:16px;padding-right:3px;background-image:url(file:///D:/01_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8/2020%EB%85%84%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/08_Core-HR/01_HTML/Core-HR/resource/lib/Main/group.png)}
+.GridMain1 .GridMain2 .GMToolExpand1{background-position:2px 2px;background-size:42px}
+.GridMain1 .GridMain2 .GMToolCollapse1{background-position:-21px 2px;background-size:42px}
+
+.GridMain1 .GridMain2,.GridMain1 .GridMain2 span,.GridMain1 .GridMain2 table,.GridMain1 .GridMain2 tbody,.GridMain1 .GridMain2 td,.GridMain1 .GridMain2 th,.GridMain1 .GridMain2 tr{border:0 none;padding:0;margin:0;background:0 0;position:static;visibility:inherit;overflow:visible;float:none;clear:none;vertical-align:top;max-height:none;max-width:none;font:inherit;color:inherit;letter-spacing:inherit;line-height:inherit;text-align:inherit;text-indent:inherit;text-transform:inherit;white-space:inherit;word-spacing:inherit;text-decoration:inherit}
+.GridMain1 .GridMain2 table{border-collapse:separate;height:auto!important;width:0!important;margin:0!important;table-layout:auto}
+.GridMain1 .GridMain2 th{height:0;padding:0!important;margin:0!important}
+.GridMain1 .GridMain2 tr{height:auto}
+.GridMain1 .GridMain2 td{height:auto}
+.GridMain1 .GridMain2,.GridMain1 .GridMain2 span,.GridMain1 .GridMain2 u{display:inline}
+.GridMain1 .GridMain2 div{display:block;vertical-align:baseline;word-wrap:normal;position:static;text-align:inherit;box-sizing:content-box;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;float:none!important;clear:none!important}
+.GridMain,.GridMain .GridMain1,.GridMain .GridMain2{border:0 none!important;padding:0!important;margin:0!important;background:0 0!important;display:block!important;float:none!important;z-index:1!important;overflow:visible!important;vertical-align:top!important;position:static;visibility:visible;max-height:none!important;min-height:0;min-width:0;letter-spacing:normal!important;line-height:normal!important;cursor:auto!important;text-align:left!important;text-indent:0!important;text-transform:none!important;white-space:normal!important;word-spacing:normal!important;text-decoration:none!important}
+.GridMain1 .GridMain2 input[type=password],.GridMain1 .GridMain2 input[type=text],.GridMain1 .GridMain2 select,.GridMain1 .GridMain2 textarea{outline:0}
+.GridMain .GridMain1,.GridMain .GridMain2{visibility:visible!important;position:static!important}
+.GridMain .GridMain1 input[type=text]::-ms-clear{display:none;width:0;height:0}
+html{overflow:visible!important}

@@ -1,0 +1,168 @@
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.t_defalut {
+	width:100%; 
+	border-top: 5px solid #295bae; 
+	font-size:13px; 
+	table-layout:fixed; 
+}
+
+th{
+	font-weight:bold; 
+	background:#295bae; 
+	color:#fff;
+}
+th, td{
+	padding: 5px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.t_defalut tr:hover td {  
+	border-bottom:1px solid #ba142f;
+}
+
+a{
+	text-decoration:none; 
+	color:#3b3838;
+}
+	
+.wrap {
+	width:100%; 
+	margin:0 auto;
+}
+	
+.header{
+	position:relative; 
+	width: 100%;
+	height: 64px; 
+	margin: 20px 0 0 0;
+}
+
+h1 {
+	position:absolute; 
+	z-index:1; 
+	font-size:50px; 
+	font-weight:normal; 
+	display:inline-block;
+	background:#fdfdfd;
+}
+
+.name {
+	position:absolute; 
+	top:15px; 
+	right:0;   
+	font-size:13px;
+	line-height:7px;	
+}
+	
+.name span {
+	width:80px; 
+	display:inline-block; 
+	text-align:left !important; 
+	padding:2px 0;}
+	
+.total { 
+	text-align:right; 
+	margin-bottom:10px; 
+}
+
+.total strong { 
+	display:inline-block; 
+	height:24px; line-height:24px; 
+	vertical-align:middle; 
+	margin-right:5px;
+} 
+
+.total span { 
+	display:inline-block; 
+	height:24px; 
+	line-height:24px; 
+	width:70px; 
+	border:1px solid #ddd; 
+	vertical-align:middle; 
+	margin:0 2px; 
+	text-align:center; 
+	font-weight:bold; 
+	color:red; 
+} 
+	
+.total span em { 
+	font-style:normal; 
+}
+
+.total .btn { 
+	display:inline-block; 
+	height:26px; 
+	line-height:26px; 
+	padding:0 10px; 
+	background:#666; 
+	color:#fff; 
+	font-weight:bold; 
+	vertical-align:middle; 
+	cursor:pointer; 
+}
+
+.t_defalut th {
+	text-align:center;
+}
+
+.t_defalut .forcenter {
+	text-align:center;
+}
+
+.t_defalut .title {
+	text-indent:1em;
+}
+
+.table {
+	width: 100%; 
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.btn01 {
+  display: inline-block;
+  padding: 2px 15px;
+  border: 1px solid #667188;
+  border-radius: 3px;
+  vertical-align: middle;
+  color: #667188;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn01:hover {
+  background-color: #295bae;
+  color: #fff;
+}
+
+.btn01.st2 {
+  border: 1px solid #295bae;
+  background-color: #295bae;
+  color: #fff;
+}
+
+.btn01.st2:hover {
+  background-color: #4877c5;
+  border-color: #4877c5;
+}
+
+.hoy {
+	text-align: center;
+}
+
+.dul {
+	text-align: center;
+}
+
+.douner {
+	text-align: center;
+}
+
+.rarira {
+	text-indent: 0.5em;
+}
