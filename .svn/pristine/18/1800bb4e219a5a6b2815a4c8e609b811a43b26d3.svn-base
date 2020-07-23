@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.project.test.dao.BoardDao">
+	
+	<!-- 게시판 목록 -->
+	<select id="getlist" resultType="com.project.test.dto.BoardDto">
+		SELECT * FROM BOARD_TEST WHERE BNO BETWEEN #{param1} AND #{param2}
+	</select>
+	
+	<!-- 게시글 수  -->
+	<select id="counttotal" resultType="integer">
+		SELECT COUNT(*) FROM BOARD_TEST
+	</select>
+	
+	<!-- 상세글 보기 -->
+	<select id="getcontent" resultType="com.project.test.dto.BoardDto">
+		SELECT * FROM BOARD_TEST WHERE BNO=#{param1}	
+	</select>
+	
+	<!-- 조회수 증가 -->
+	<update id="uphit">
+		UPDATE BOARD_TEST SET BHIT=BHIT+1 WHERE BNO=#{param1}
+	</update>
+	
+	<!-- 글쓰기 -->
+	<insert id="write">
+		INSERT INTO BOARD_TEST (BNO, BWRITER, BTITLE, BCONTENT) VALUES (NEXT VALUE FOR BOARD_SEQ, #{param1}, #{param2}, #{param3})
+	</insert>
+	
+	<!-- 글삭제 -->
+	<delete id="delete">
+		DELETE FROM BOARD_TEST WHERE BNO=#{param1}
+	</delete>
+	
+	<!-- 글수정 -->
+	<update id="modify">
+		UPDATE BOARD_TEST SET BWRITER=#{param1}, BTITLE=#{param2}, BCONTENT=#{param3} WHERE BNO=#{param4}
+	</update>
+	
+	<!-- 검색글 목록 -->
+	<select id="getlist_search" resultType="com.project.test.dto.BoardDto">
+		SELECT * FROM BOARD_TEST WHERE BTITLE LIKE '%'||#{key}||'%' or BCONTENT LIKE '%'||#{key}||'%'
+	</select>
+	
+	<!-- 검색글 수 -->
+	<select id="counttotal_search" resultType="integer">
+		SELECT COUNT(*) FROM BOARD_TEST WHERE (BTITLE LIKE '%'||#{param1}||'%' or BCONTENT LIKE '%'||#{param1}||'%')
+	</select>
+	
+</mapper>

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.t_defalut {
+	width:100%; 
+	border-top: 5px solid #295bae; 
+	font-size:13px; 
+	table-layout:fixed; 
+}
+
+th{
+	font-weight:bold; 
+	background:#295bae; 
+	color:#fff;
+}
+th, td{
+	padding: 5px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.t_defalut tr:hover td {  
+	border-bottom:1px solid #ba142f;
+}
+
+a{
+	text-decoration:none; 
+	color:#3b3838;
+}

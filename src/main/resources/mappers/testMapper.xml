@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.project.test.dao.BoardDao">
+	
+	<!-- 게시판 목록 -->
+	<select id="getlist" resultType="com.project.test.dto.BoardDto">
+		select
+ 		 bno, title, content, writer, regDate, viewCnt
+ 		from tbl_board
+		<!-- LIMIT #{param1}, 10 -->
+	</select>
+	
+	<!-- 게시글 수  -->
+	<select id="counttotal" resultType="integer">
+		SELECT COUNT(*) FROM tbl_board
+	</select>
+	
+	<!-- 상세글 보기 -->
+	<select id="getcontent" resultType="com.project.test.dto.BoardDto">
+		select 
+  		bno, title, writer, content, regDate, viewCnt
+ 		from tbl_board
+		 where bno = #{bno}
+	</select>
+	
+	<!-- 글쓰기 -->
+	<insert id="write">
+		insert into
+  		tbl_board(title, writer, content)
+  		 values(#{param1}, #{param2}, #{param3})
+	</insert>
+	
+	<!-- 글삭제 -->
+	<delete id="delete">
+		delete from tbl_board where bno = #{bno}
+	</delete>
+	
+	<!-- 글수정 -->
+	<update id="modify">
+		update tbl_board set title = #{param1}, writer = #{param2}, content= #{param3} where bno = #{param4}
+	</update>
+	
+	<!-- 검색글 목록 -->
+	<select id="getlist_search" resultType="com.project.test.dto.BoardDto">
+		select
+	bno, title, writer,regDate
+	from tbl_board
+	
+	where title like concat('%',#{param2},'%');
+	</select>
+	
+	
+
+</mapper>

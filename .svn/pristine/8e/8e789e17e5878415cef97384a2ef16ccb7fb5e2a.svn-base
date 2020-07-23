@@ -1,0 +1,144 @@
+package com.project.test;
+
+
+import java.util.ArrayList;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.project.test.dao.BoardDao;
+import com.project.test.dto.BoardDto;
+import com.project.test.util.PageVO;
+
+@Controller
+public class TestController {
+	
+	@Autowired
+	private SqlSession sqlSession;
+	
+	@RequestMapping("board")
+	public String board(HttpServletRequest request, Model model, PageVO pageVo) {
+		BoardDao dao=sqlSession.getMapper(BoardDao.class);
+//		페이징 위한 총 게시글 수
+		int total=dao.counttotal();
+		String strPage=request.getParameter("page");		
+		if(strPage==null || strPage.equals(""))
+			strPage="1";
+		
+		int page=Integer.parseInt(strPage);
+		pageVo.setPage(page);
+		pageVo.pageCalculate(total);
+		
+		int rowStart=pageVo.getRowStart();
+		int rowEnd=pageVo.getRowEnd();
+		
+//		게시판목록
+		ArrayList<BoardDto> dto=dao.getlist(rowStart, rowEnd);
+		model.addAttribute("list", dto);
+		model.addAttribute("pageVo",pageVo);
+		
+		return "board";
+	}
+	
+	@RequestMapping("content_view")
+	public String content_view(HttpServletRequest request, Model model) {
+		BoardDao dao=sqlSession.getMapper(BoardDao.class);
+		int bno=Integer.parseInt(request.getParameter("bno"));
+		
+//		조회수 증가
+		dao.uphit(bno);
+		
+//		상세글 보기
+		BoardDto dto=dao.getcontent(bno);
+		model.addAttribute("content", dto);
+		
+		return "content_view";
+	}
+	
+	@RequestMapping("write_view")
+	public String write_view() {
+		return "write_view";
+	}
+	
+	@RequestMapping("write")
+	public String write(HttpServletRequest request) {
+		BoardDao dao=sqlSession.getMapper(BoardDao.class);
+		String bwriter=request.getParameter("bwriter");
+		String btitle=request.getParameter("btitle");
+		String bcontent=request.getParameter("bcontent");
+		
+//		글작성
+		dao.write(bwriter, btitle, bcontent);
+			
+		return "redirect:board";
+	}
+	
+	@RequestMapping("delete")
+	public String delete(HttpServletRequest request) {
+		BoardDao dao=sqlSession.getMapper(BoardDao.class);
+		int bno=Integer.parseInt(request.getParameter("bno"));
+		
+//		글삭제
+		dao.delete(bno);
+		
+		return "redirect:board";
+	}
+	
+	@RequestMapping("modify_view")
+	public String modift_view(HttpServletRequest request, Model model) {
+		BoardDao dao=sqlSession.getMapper(BoardDao.class);
+		int bno=Integer.parseInt(request.getParameter("bno"));
+		
+//		수정화면
+		BoardDto dto=dao.getcontent(bno);
+		model.addAttribute("content", dto);
+		
+		return "modify_view";
+	}
+	
+	@RequestMapping("modify")
+	public String modify(HttpServletRequest request) {
+		BoardDao dao=sqlSession.getMapper(BoardDao.class);
+		int bno=Integer.parseInt(request.getParameter("bno"));
+		
+		String bwriter=request.getParameter("bwriter");
+		String btitle=request.getParameter("btitle");
+		String bcontent=request.getParameter("bcontent");
+		
+//		게시글 수정
+		dao.modify(bwriter, btitle, bcontent, bno);
+		
+		return "redirect:board";
+	}
+	
+	@RequestMapping("board_search")
+	public String board_search(HttpServletRequest request, Model model, PageVO pageVo) {
+		BoardDao dao=sqlSession.getMapper(BoardDao.class);
+		String key=request.getParameter("key");
+	
+//		페이징 위한 총 게시글 수
+		int total=dao.counttotal_search(key);
+		String strPage=request.getParameter("page");		
+		if(strPage==null || strPage.equals(""))
+			strPage="1";
+		
+		int page=Integer.parseInt(strPage);
+		pageVo.setPage(page);
+		pageVo.pageCalculate(total);
+		
+		int rowStart=pageVo.getRowStart();
+		int rowEnd=pageVo.getRowEnd();
+		
+//		검색글 목록
+		ArrayList<BoardDto> dto=dao.getlist_search(key);
+		model.addAttribute("list", dto);
+		model.addAttribute("pageVo",pageVo);
+		
+		return "board";
+	}
+}

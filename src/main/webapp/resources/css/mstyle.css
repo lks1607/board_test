@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.table{
+	border-top: 5px solid #295bae; 
+	font-size:13px;
+}
+
+.table .left{
+	height: 29px;
+	font-size: 14px;
+	color: #222;
+	padding: 5px;
+	font-weight: bold;
+	background-color: #f2f5fa;
+	border-left: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	text-align: center;
+}
+
+.btn01 {
+  display: inline-block;
+  padding: 2px 15px;
+  border: 1px solid #667188;
+  border-radius: 3px;
+  vertical-align: middle;
+  color: #667188;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn01:hover {
+  background-color: #295bae;
+  color: #fff;
+}
+
+.btn01.st2 {
+  border: 1px solid #295bae;
+  background-color: #295bae;
+  color: #fff;
+}
+
+.btn01.st2:hover {
+  background-color: #4877c5;
+  border-color: #4877c5;
+}

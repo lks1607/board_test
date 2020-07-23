@@ -1,0 +1,64 @@
+package com.project.test.dto;
+
+import java.sql.Date;
+
+public class BoardDto {
+	private int bno;
+	private String btitle;
+	private String bwriter;
+	private String bcontent;
+	private Date brdate;
+	private int bhit;
+	
+	public BoardDto() {
+		// TODO Auto-generated constructor stub
+	}
+		
+	public BoardDto(int bno, String btitle, String bwriter, String bcontent, Date brdate, int bhit) {
+		super();
+		this.bno = bno;
+		this.btitle = btitle;
+		this.bwriter = bwriter;
+		this.bcontent = bcontent;
+		this.brdate = brdate;
+		this.bhit = bhit;
+	}
+
+	public int getBno() {
+		return bno;
+	}
+	public void setBno(int bno) {
+		this.bno = bno;
+	}
+	public String getBtitle() {
+		return btitle;
+	}
+	public void setBtitle(String btitle) {
+		this.btitle = btitle;
+	}
+	public String getBwriter() {
+		return bwriter;
+	}
+	public void setBwriter(String bwriter) {
+		this.bwriter = bwriter;
+	}
+	public String getBcontent() {
+		return bcontent;
+	}
+	public void setBcontent(String bcontent) {
+		this.bcontent = bcontent;
+	}
+	public Date getBrdate() {
+		return brdate;
+	}
+	public void setBrdate(Date brdate) {
+		this.brdate = brdate;
+	}
+	public int getBhit() {
+		return bhit;
+	}
+	public void setBhit(int bhit) {
+		this.bhit = bhit;
+	}
+	
+}

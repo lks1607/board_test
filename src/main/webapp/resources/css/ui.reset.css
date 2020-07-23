@@ -1,0 +1,30 @@
+@import url("/resources/fonts/NotoSans/font.css");
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button,a,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, menu,
+nav, output, ruby, section, summary, time, mark, audio, video { margin:0; padding:0; }
+fieldset,img{ border:0 none; }
+dl,ul,ol,menu,li{ list-style-type:none; }
+blockquote, q{ quotes:none; }
+blockquote:before, blockquote:after,q:before, q:after{ content:''; content:none; }
+button{ border:0 none; border-radius:0; background-color:transparent; cursor:pointer; }
+body{ word-wrap:break-word; word-break:keep-all; }
+body,th,td,input,select,textarea,button{ font-size:12px; font-family:'NotoSans','Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','돋움',dotum, sans-serif; color:#222; }
+input,select,textarea,button{ vertical-align:middle; border:1px solid #d6d6d7; }
+input::-ms-clear{ display:none; }
+input::-webkit-contacts-auto-fill-button { visibility:hidden;display:none !important; pointer-events:none; position:absolute; right:0; }
+a{ color:#333; text-decoration:none; }
+a:active, a:hover{ text-decoration:none; }
+address,caption,cite,code,dfn,em,var{ font-style:normal; font-weight:normal; }
+table{ border-spacing:0; border-collapse:collapse; }
+caption{ overflow:hidden; position:absolute; width:1px; height:1px; padding:0; margin:-1px; clip:rect(0,0,0,0); border:0; }
+/* 추가 */
+input,select{ padding:3px 5px; font-size:12px; box-sizing: border-box;}
+textarea{ width:100%; padding:10px; box-sizing:border-box; font-size:12px; display:block; line-height:20px; resize: none; }
+input[type="radio"],input[type="checkbox"]{ border:none; }
+.wp100{ width:100% !important; }
+.mt15{ margin-top:15px !important; }
+.mt30{ margin-top:30px !important; }
+.mr15{ margin-right:15px !important; }
+.pt0{ padding-top:0 !important; }
+.tCenter{ text-align:center !important; }
