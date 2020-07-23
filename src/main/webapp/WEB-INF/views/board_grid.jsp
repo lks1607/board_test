@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>IBSheet게시판</title>
+<title>IBSheet</title>
 <link rel="stylesheet" href="resources/css/mstyle.css" type="text/css">
 <link rel="stylesheet" href="resources/css/slick.css" type="text/css">
 <link rel="stylesheet" href="resources/css/jquery-ui.css"
